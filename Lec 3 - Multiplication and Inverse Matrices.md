@@ -18,4 +18,4 @@
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\fn_phv&space;\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}\cdot&space;\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}=&space;\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\fn_phv&space;\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}\cdot&space;\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}=&space;\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}" title="\begin{bmatrix} & & \\ & & \\ & & \end{bmatrix}\cdot \begin{bmatrix} & & \\ & & \\ & & \end{bmatrix}= \begin{bmatrix} & & \\ & & \\ & & \end{bmatrix}" /></a>
 
-A <pre>  B <pre>  C
+A &nbsp;  B &nbsp;  C
