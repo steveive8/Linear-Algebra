@@ -17,3 +17,5 @@
  We'll begin with how to multiply two matrices. Suppose that we have a matrix A, multiplying a matrix B and giving us a result a matrix C.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}\cdot&space;\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}=&space;\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}\cdot&space;\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}=&space;\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}" title="\begin{bmatrix} & & \\ & & \\ & & \end{bmatrix}\cdot \begin{bmatrix} & & \\ & & \\ & & \end{bmatrix}= \begin{bmatrix} & & \\ & & \\ & & \end{bmatrix}" /></a>
+
+A   B   =   C
