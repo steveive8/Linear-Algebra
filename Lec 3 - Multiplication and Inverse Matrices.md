@@ -16,8 +16,4 @@
 
  We'll begin with how to multiply two matrices. Suppose that we have a matrix A, multiplying a matrix B and giving us a result a matrix C.
 
- $\matrix{1|⋯|⋮|⋰|1|⋯|1|⋮|1}$
-
- ![equation](http://latex.codecogs.com/gif.latex?O_t%3D%5Ctext%20%7B%20Onset%20event%20at%20time%20bin%20%7D%20t)
-![equation](http://latex.codecogs.com/gif.latex?s%3D%5Ctext%20%7B%20sensor%20reading%20%7D) 
-![equation](http://latex.codecogs.com/gif.latex?P%28s%20%7C%20O_t%20%29%3D%5Ctext%20%7B%20Probability%20of%20a%20sensor%20reading%20value%20when%20sleep%20onset%20is%20observed%20at%20a%20time%20bin%20%7D%20t)
+<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}\cdot&space;\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}=&space;\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}\cdot&space;\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}=&space;\begin{bmatrix}&space;&&space;&&space;\\&space;&&space;&&space;\\&space;&&space;&&space;\end{bmatrix}" title="\begin{bmatrix} & & \\ & & \\ & & \end{bmatrix}\cdot \begin{bmatrix} & & \\ & & \\ & & \end{bmatrix}= \begin{bmatrix} & & \\ & & \\ & & \end{bmatrix}" /></a>
