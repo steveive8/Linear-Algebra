@@ -16,4 +16,5 @@
 
  We'll begin with how to multiply two matrices. Suppose that we have a matrix A, multiplying a matrix B and giving us a result a matrix C.
 
- ### $A\cdotB=C$
+### $ \begin{bmatrix}  &  &  \\  &  &  \\  &  &  \end{bmatrix}
+### $ A\cdotB=C$
