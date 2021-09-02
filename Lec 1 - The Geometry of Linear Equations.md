@@ -10,7 +10,7 @@ Images are created by Steve Ive.
 
 Here, we are going to solve some examples of linear equations, approaching by **three different ways**. 
 
-With these three ways, we'll see how those approach solve the same problem respectively, and finally we would get the insight of how the same problem can be seen and solved differently. The fresh method of approaching problem called **Column Picture** is one of the important part in this lecture.
+With these three ways, we'll see how those approach solve the same problem respectively, and finally we would get the insight of how the same problem can be seen and solved differently. The **Column Picture** is one of the important part in this lecture, will show how problem can be approched compared to conventional approach.
 
 
 The fundamental problem of linear algebra which is to solve a system of linear equations.
