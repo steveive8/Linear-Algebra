@@ -106,7 +106,7 @@ The point is that, we've done this with columns as a **component**.
 
 Let's move to the equations and 3 unknowns.
 
-<img src="./imgs/lec1/10.pn" height="200px" />)
+<img src="./imgs/lec1/10.png" height="200px" />
 
 As we've done, there are three ways to understand this equations.
 
@@ -118,11 +118,11 @@ As we've done, there are three ways to understand this equations.
 
 Let just take a matrix form first.
 
-<img src="./imgs/lec1/11.pgn" height="200px" />)
+<img src="./imgs/lec1/11.png" height="200px" />
 
 ## Row Picture
 
-<img src="./imgs/lec1/12.png" height="200px" />)
+<img src="./imgs/lec1/12.png" height="300px" />
 
 > When two equations(the two planes) meet in three dimension, they meet in a line.
 
@@ -134,7 +134,7 @@ Let just take a matrix form first.
 
 Below, this is a linear combination of three vectors, each is a three dimensional vector.
 
-<img src="./imgs/lec1/13.png" height="200px" />)
+<img src="./imgs/lec1/13.png" height="200px" />
 
 Since the problem is sepcially choosen to be
 
@@ -142,7 +142,7 @@ Since the problem is sepcially choosen to be
 
 we can get the solution of
 
-<img src="./imgs/lec1/14.png" height="200px" />)
+<img src="./imgs/lec1/14.png" height="200px" />
 
 > x = 0, y = 0, z = 1
 
@@ -157,7 +157,7 @@ That's the next lecture, about the **elimination**, which is the systematic way 
 
 if we change right-hand side as [1, 1, -3], we can express this as
 
-<img src="./imgs/lec1/15.png" height="200px" />)
+<img src="./imgs/lec1/15.png" height="300px" />
 
 We can find solution easily since we set this also specially that the solution is just adding column 1 and column 2 without column3.
 
