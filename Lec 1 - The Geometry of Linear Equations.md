@@ -10,7 +10,7 @@ Images are created by Steve Ive.
 
 Here, we are going to solve some examples of linear equations, approaching by **three different ways**. 
 
-With these three ways, we'll see how those approach solve the same problem respectively, and finally we would get the insight of how the same problem can be seen and solved differently. The **Column Picture** is one of the important part in this lecture, will show how problem can be approched compared to conventional approach.
+With these three ways, we'll see how those approaches solve the same problem respectively, and finally we would get the insights of how the same problem can be seen and solved differently. The **Column Picture** is one of the important part in this lecture, will show how we can approach the problem compared to conventional way.
 
 ---
 
@@ -30,7 +30,7 @@ To solve this, there can be three approaches with the same problem.
 ---
 Let's start with the example.
 
-![](./imgs/lec1/1.png)
+<img src="./imgs/lec1/1.png" height="90px" />
 
 First, what is the Matrix?
 
@@ -38,7 +38,7 @@ Matrix is just a **rectangular array of numbers**
 
 Let's then express above as matrix.
 
-![](./imgs/lec1/2.png)
+<img src="./imgs/lec1/2.png" height="90px" />
 
 So the linear equations are ***AX = b***
 
@@ -54,25 +54,25 @@ We can plot all the points satisfying first equation, and here are two points th
 
 > x = 1, y = 2
 
-![](./imgs/lec1/3.png)
+<img src="./imgs/lec1/3.png" height="90px" />
 
 we can put all the points at once because they all lie on a straight line.
 
-![](./imgs/lec1/4.png)
+<img src="./imgs/lec1/4.png" height="90px" />
 
 How about the second one? The second one is not going to through the origin. It's always important **Do we go through the origin or not**.
 
-![](./imgs/lec1/5.png)
+<img src="./imgs/lec1/5.png" height="90px" />
 
 ## Column Picture
 
 Now I'm going to look at the columns of the matrix.
 
-![](./imgs/lec1/6.png)
+<img src="./imgs/lec1/6.png" height="90px" />
 
 We can put the two equations at once.
 
-![](./imgs/lec1/7.png)
+<img src="./imgs/lec1/7.png" height="90px" />
 
 And now what is the equation asking for?
 
@@ -90,11 +90,11 @@ And here, we want to make x, y, which are the right numbers to produce **b [0, 3
 
 Drawing the picture of it as the geometry, we can plot like this.
 
-![](./imgs/lec1/8.png)
+<img src="./imgs/lec1/8.png" height="90px" />
 
 And finally we can get the right answer like this.
 
-![](./imgs/lec1/9.png)
+<img src="./imgs/lec1/9.png" height="90px" />
 
 The point is that, we've done this with columns as a **component**.
 
@@ -106,7 +106,7 @@ The point is that, we've done this with columns as a **component**.
 
 Let's move to the equations and 3 unknowns.
 
-![](./imgs/lec1/10.png)
+<img src="./imgs/lec1/10.pn" height="90px" />)
 
 As we've done, there are three ways to understand this equations.
 
@@ -118,11 +118,11 @@ As we've done, there are three ways to understand this equations.
 
 Let just take a matrix form first.
 
-![](./imgs/lec1/11.png)
+<img src="./imgs/lec1/11.pn" height="90px" />)
 
 ## Row Picture
 
-![](./imgs/lec1/12.png)
+<img src="./imgs/lec1/12.pn" height="90px" />)
 
 > When two equations(the two planes) meet in three dimension, they meet in a line.
 
@@ -134,7 +134,7 @@ Let just take a matrix form first.
 
 Below, this is a linear combination of three vectors, each is a three dimensional vector.
 
-![](./imgs/lec1/13.png)
+<img src="./imgs/lec1/13.pn" height="90px" />)
 
 Since the problem is sepcially choosen to be
 
@@ -142,7 +142,7 @@ Since the problem is sepcially choosen to be
 
 we can get the solution of
 
-![](./imgs/lec1/14.png)
+<img src="./imgs/lec1/14.pn" height="90px" />)
 
 > x = 0, y = 0, z = 1
 
@@ -157,7 +157,7 @@ That's the next lecture, about the **elimination**, which is the systematic way 
 
 if we change right-hand side as [1, 1, -3], we can express this as
 
-![](./imgs/lec1/15.png)
+<img src="./imgs/lec1/15.pn" height="90px" />)
 
 We can find solution easily since we set this also specially that the solution is just adding column 1 and column 2 without column3.
 
