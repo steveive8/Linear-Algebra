@@ -8,6 +8,11 @@ Images are created by Steve Ive.
 
 ---
 
+Here, we are going to solve some examples of linear equations, approaching by **three different ways**. 
+
+With these three ways, we'll see how those approach solve the same problem respectively, and finally we would get the insight of how the same problem can be seen and solved differently. The fresh method of approaching problem called **Column Picture** is one of the important part in this lecture.
+
+
 The fundamental problem of linear algebra which is to solve a system of linear equations.
 
 ### n linear equations, n unknowns.
@@ -53,7 +58,7 @@ we can put all the points at once because they all lie on a straight line.
 
 ![](./imgs/lec1/4.png)
 
-How about the second one? The second one is not going to through the origin. It's always important **Do we go through the origin or not.
+How about the second one? The second one is not going to through the origin. It's always important **Do we go through the origin or not**.
 
 ![](./imgs/lec1/5.png)
 
@@ -79,7 +84,7 @@ This is the most fundamental operation in the whole course.
 
 Multiplying col1, col2 by some numbers and adding it, we call it **linear combination**.
 
-And here, we want to make x, y the right numbers to produce **b [0, 3]**
+And here, we want to make x, y, which are the right numbers to produce **b [0, 3]**
 
 Drawing the picture of it as the geometry, we can plot like this.
 
@@ -89,7 +94,7 @@ And finally we can get the right answer like this.
 
 ![](./imgs/lec1/9.png)
 
-The point is that, we've done with columns like as a **component**
+The point is that, we've done this with columns as a **component**.
 
 **If I took all the xs and all the ys(all the combinations), what would be the result to get the right-hand side at all?**
 
@@ -117,9 +122,9 @@ Let just take a matrix form first.
 
 ![](./imgs/lec1/12.png)
 
-> When two equations, the two planes meet in three dimension, they meet in a line.
+> When two equations(the two planes) meet in three dimension, they meet in a line.
 
-> If 3 planes are not parallel and they're not special, they do meet in one point and that's a ***solution***.
+> If three planes are not parallel and they're not special, they do meet in one point and that's a ***solution***.
 
 **The problem is, the row picture is hard to see and it's not so clear.** So, we'll move to column picture to this.
 
@@ -129,7 +134,11 @@ Below, this is a linear combination of three vectors, each is a three dimensiona
 
 ![](./imgs/lec1/13.png)
 
-Since the problem is sepcially choosen to be b = one of these columns(col3) we can get the solution of
+Since the problem is sepcially choosen to be
+
+**b = one of these columns(=col3)**
+
+we can get the solution of
 
 ![](./imgs/lec1/14.png)
 
@@ -148,13 +157,13 @@ if we change right-hand side as [1, 1, -3], we can express this as
 
 ![](./imgs/lec1/15.png)
 
-We can find solution easily since we set this also specially same as adding column 1 and column 2 without column3.
+We can find solution easily since we set this also specially that the solution is just adding column 1 and column 2 without column3.
 
 > x = 1, y = 1, z = 0
 
 In the **row picture**, we have three ***different new*** planes, meeting new at this point. 
 
-In the **column picture**, ***I have the ***same*** three columns, but now I'm just combining them to produce b and turned out col1 + col2 = b.
+In the **column picture**, I have the ***same*** three columns, so now I'm just combining them to produce b and turned out col1 + col2 = b.
 
 Now, there can be a question.
 
