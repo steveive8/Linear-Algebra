@@ -29,4 +29,4 @@ Matrix is just a **rectangular array of numbers**
 
 Let's then express above as matrix.
 
-![]('./imgs/lec1/2.png)
+![](./imgs/lec1/2.png)
