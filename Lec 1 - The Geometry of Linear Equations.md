@@ -17,7 +17,7 @@ With these three ways, we'll see how those approaches solve the same problem res
 
 The fundamental problem of linear algebra which is to solve a system of linear equations.
 
-### n linear equations, n unknowns.
+## n linear equations, n unknowns.
 
 To solve this, there can be three approaches with the same problem.
 
@@ -44,7 +44,7 @@ So the linear equations are ***AX = b***
 
 Let's solve this particular example, and then step back to see the bigger picture.
 
-## Row Picture
+### Row Picture
 
 **The row picture means that take one row at a time.**
 
@@ -64,7 +64,7 @@ How about the second one? The second one is not going to through the origin. It'
 
 <img src="./imgs/lec1/5.png" height="300px" />
 
-## Column Picture
+### Column Picture
 
 Now I'm going to look at the columns of the matrix.
 
@@ -106,6 +106,8 @@ The point is that, we've done this with columns as a **component**.
 
 Let's move to the equations and 3 unknowns.
 
+## Linear eqautions at Three dimension
+
 <img src="./imgs/lec1/10.png" height="200px" />
 
 As we've done, there are three ways to understand this equations.
@@ -120,7 +122,7 @@ Let just take a matrix form first.
 
 <img src="./imgs/lec1/11.png" height="200px" />
 
-## Row Picture
+### Row Picture
 
 <img src="./imgs/lec1/12.png" height="300px" />
 
@@ -130,7 +132,7 @@ Let just take a matrix form first.
 
 **The problem is, the row picture is hard to see and it's not so clear.** So, we'll move to column picture to this.
 
-## Column Picture
+### Column Picture
 
 Below, this is a linear combination of three vectors, each is a three dimensional vector.
 
