@@ -1,7 +1,11 @@
-# The Geometry og Linear Equations
+# Lec1. The Geometry og Linear Equations
 
-### MIT 18.06 Gilbert Strange, Linear Algebra, Spring 2005
-### This doucment is edited by Steve Ive based on Youtube Lecture.
+#### MIT 18.06 Gilbert Strange, Linear Algebra, Spring 2005
+#### This doucment is edited by Steve Ive based on Youtube Lecture.
+
+---
+
+### Row Pictures, Matrix Form, and the *Column Picture
 
 The fundamental problem of Linear Algebra, which is to solve a system of linear equations.
 
@@ -12,9 +16,9 @@ So let's start with a case when we have some number of equations, say
 
 So an equal number of equations and unknowns. That's the normal, nice case.
 
----
-
 What I want to do is to describe, first what I call the **Row Picture**.
+
+---
 
 ### Row Picture
 
