@@ -80,14 +80,24 @@ Okay. What's the picture for this example, the Row Picture?
 
 Okay, so here comes the Row picture. 
 
-The Row Picture means that I **take one row at a time**. It means that we will focus on the row of the matrix, which also mean that we foucs on one equation at time.
+The Row Picture means that I **take one row at a time**. It means that we will focus on the row of the matrix, which also mean that we foucs on one equation at a time.
 
-![](./imgs/lec1/2x-y=0.svg) for this equation, we have points that satisfying the equation of
+So let's dive in to this two equations and let's find some points that satisfy those equations.
+
+**Equation 1**
+
+![](./imgs/lec1/2x-y=0.svg)
+
+**Equation 2**
+
+![](./imgs/lec1/-x+2y=3.svg)
+
+The points that satisfying the equation 1.
 
 - x = 0, y = 0
 - x = 1, y = 2
 
-![](./imgs/lec1/-x+2y=3.svg)n for this equation, we have points that satisfying the equation of
+The points that satisfying the equation 1.
 
 - x = -1, y = 1
 - x = -3, y = 0
