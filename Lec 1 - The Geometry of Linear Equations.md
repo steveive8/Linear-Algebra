@@ -304,9 +304,9 @@ For this matrix A - for these columns, the answer is **yes**.
 
 This matrix A, that I chose for an example is a good matrix.
 
-**A non-singular matrix.**
+- **A non-singular matrix.**
 
-**An invertible matrix.**
+- **An invertible matrix.**
 
 Those will be the matrices that we like best.
 
