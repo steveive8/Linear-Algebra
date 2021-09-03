@@ -163,9 +163,37 @@ So, Let's go to the next example, the 3 equations, and 3 unknowns.
 
 ![](./imgs/lec1/3-3.svg)
 
+Let' see the Row picture first.
+
+## Row Picture
+
+When we find some points that satisfying each equations, we would get three different planes in the 3-dimensional space.
+
+![](./imgs/lec1/graph6.svg)
+
+When two planes meet, those meet in the **line**.
+
+When three planes meet, those meet in the **point**.
+
+And the point of that will be the answer of these equations.
+
+But, maybe you can see that this row picture is getting a little hard to see.
+
+The row picture was a cinch when we looked at two planes meeting.
+
+When we look at three planes meeting,it's not so clear and in four dimensions probably a little less clear.
+
+So, let's quit the row picture.
+
+All I really want to see is that the row picture consists of three planes and, if everything works right, three planes meet in one point and that's a solution.
+
+Now, you can tell I prefer the column picture.
+
+Okay, so let me take the column picture.
+
+## Column Picture
 
 ![](./imgs/lec1/graph5.svg)
 
-![](./imgs/lec1/graph6.svg)
 
 
