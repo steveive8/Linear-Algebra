@@ -55,7 +55,7 @@ At above, we can see the problem that consists two equations and two unknowns.
 
 ![](./imgs/lec1/2by2.svg)
 
-So what's the coefficient matrix? Anyway what is the matrix though?
+Anyway what is the matrix though?
 
 The matrix is **just a rectangular array of numbers.**
 
@@ -69,43 +69,42 @@ So, We can describe this though.
 
 ![](./imgs/lec1/ax=b.svg)
 
-So the linear equations are now the AX = b.
+So the linear equations are now the form of ***AX = b***.
 
-And the idea now, that to solve this particular problem and then step back to see the bigger picture. Okay. What's the picture for this example, the Row Picture?
+The idea now, is that to solve this particular problem, and then step back to see the bigger picture. 
+
+Okay. What's the picture for this example, the Row Picture?
 
 
 ## Row Picture
 
-Okay, so here comes the Row picture. So that means I take one row at a time and I'm drawing here the xy plane and I'm going to plot all the points that satisfy that first equation.
+Okay, so here comes the Row picture. 
 
-The Points that satisfy this first equation, ![](./imgs/lec1/2x-y=0.svg)
+The Row Picture means that I **take one row at a time**. It means that we will focus on the row of the matrix, which also mean that we foucs on one equation at time.
+
+![](./imgs/lec1/2x-y=0.svg) for this equation, we have points that satisfying the equation of
 
 - x = 0, y = 0
 - x = 1, y = 2
 
-The Points that satisfy this second equation, ![](./imgs/lec1/-x+2y=3.svg)
+![](./imgs/lec1/-x+2y=3.svg)n for this equation, we have points that satisfying the equation of
 
 - x = -1, y = 1
 - x = -3, y = 0
 
 So there's the points that solve these equation. And I could put in more points.
-But, but let me put in all the points at once, because they all lie on a straight line.
+But, let me put in all the points at once, because they all lie on a straight line.
 
 ![](./imgs/lec1/graph1.svg)
-
 
 As above, the point that lies both lines is the important thing, the solution.
 
 **Solution**
 - x = 1, y= 2
 
-So, first of all, for n equal 2, two equations and two unknowns, we've seen the row picture first and it's the right place to start.
+So, the first thing we've done for n equal 2, two equations and two unknowns, we've seen the row picture and it's the right place to start.
 
-Okay.
-
-So we've got the solution.
-
-The point that lies on both lines.
+Okay. We've got the solution that the point that lies on both lines.
 
 Now can I come to the column picture?
 
