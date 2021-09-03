@@ -257,45 +257,61 @@ Okay.
 
 - In the column picture, I have the **same three columns**, but now I'm combining them to produce the b, and it turned out that column one plus column two.
 
-![](./imgs/lec1/graph6.svg)
+![](./imgs/lec1/graph7.svg)
 
-Okay.
-So we squeezed in an extra example.
+Okay. So we squeezed in an extra example.
+
 But now think about all bs, all right-hand sides.
-Can I solve these equations for every right-hand side?
-Can I ask that question?
+
+Can I solve these equations for every right-hand side? 
+
 So that's the algebra question.
+
 Can I solve A x=b for every b?
+
 Let me write that down.
-Can I solve A x =b for every right-hand side b?
+
+## Can I solve A x =b for every right-hand side b?
+
 I mean, is there a solution?
-And then, if there is, elimination
-will give me a way to find it.
-I really wanted to ask, is there a solution
-for every right-hand side?
-So now, can I put that in different words --
-in this linear combination words?
-So in linear combination words, do the linear combinations
-of the columns fill three dimensional space?
+
+And then, if there is, elimination will give me a way to find it.
+
+I really wanted to ask, is there a solution for every right-hand side?
+
+So now, can I put that in different words in this linear combination words?
+
+So in linear combination words, 
+
+## do the linear combinations of the columns fill three dimensional space?
+
 Every b means all the bs in three dimensional space.
-Do you see that I'm just asking the same question
-in different words?
-Solving A x --
-A x -- that's very important.
-A times x -- when I multiply a matrix by a vector,
-I get a combination of the columns.
+
+Do you see that I'm just asking the same question in different words?
+Solving Ax - that's very important.
+
+A times x - when I multiply a matrix by a vector, I get a combination of the columns.
+
 I'll write that down in a moment.
+
 But in my column picture, that's really what I'm doing.
-I'm taking linear combinations of these three columns
-and I'm trying to find b.
+
+I'm taking **linear combinations** of these three columns and I'm trying to find b.
+
 And, actually, the answer for this matrix will be yes.
-For this matrix A -- for these columns, the answer is yes.
-This matrix -- that I chose for an example is a good matrix.
-A non-singular matrix.
-An invertible matrix.
+
+For this matrix A - for these columns, the answer is **yes**.
+
+This matrix A, that I chose for an example is a good matrix.
+
+**A non-singular matrix.**
+
+**An invertible matrix.**
+
 Those will be the matrices that we like best.
-There could be other --
-and we will see other matrices where the answer becomes, no --
+
+There could be other and we will see other matrices where the answer becomes, **no**.
+
 oh, actually, you can see when it would become no.
 What could go wrong? find out -- because if elimination fails,
 How could it go wrong that out of these --
