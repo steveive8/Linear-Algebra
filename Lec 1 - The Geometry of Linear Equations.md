@@ -94,4 +94,29 @@ But, but let me put in all the points at once, because they all lie on a straigh
 ![](./imgs/lec1/graph1.svg)
 
 
+As above, the point that lies both lines is the important thing, the solution.
 
+**Solution**
+- x = 1, y= 2
+
+So, first of all, for n equal 2, two equations and two unknowns, we've seen the row picture first and it's the right place to start.
+
+Okay.
+
+So we've got the solution.
+
+The point that lies on both lines.
+
+Now can I come to the column picture?
+
+Pay attention, this is the key point.
+
+So the column picture.
+
+## Column Picture
+
+I'm now going to look at the columns of the matrix.
+
+I'm going to look at this part and this part.
+
+I'm kind of getting the two equations at once --
