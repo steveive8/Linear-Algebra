@@ -369,6 +369,7 @@ Okay.
 
 ![](./imgs/lec1/ax=b.svg)
 
+![](./imgs/lec1/3-9.svg)
 
 The matrix form of my equation, of my system is some matrix A times some vector x equals some right-hand side b.
 
