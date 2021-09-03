@@ -102,8 +102,7 @@ The points that satisfying the equation 1.
 - x = -1, y = 1
 - x = -3, y = 0
 
-So there's the points that solve these equation. And I could put in more points.
-But, let me put in all the points at once, because they all lie on a straight line.
+So there's the points that solve these equation and I could put in more points. But, let me put in all the points at once, because they all lie on a straight line.
 
 ![](./imgs/lec1/graph1.svg)
 
@@ -129,3 +128,22 @@ I'm now going to look at the columns of the matrix.
 We can describe the problem the combination of the columns. And we call it the ***Linear Combination***.
 
 ![](./imgs/lec1/columnpicture.svg)
+
+And it's the most fundamental operation in the whole course.
+
+**It's a linear combination of the columns.**
+
+The thing we are going to do is just find appropriate x and y to produce the right right-hand side vector, the [0,3].
+
+So let's go to the geometry of this.
+
+![](./imgs/lec1/graph2.svg)
+![](./imgs/lec1/graph3.svg)
+
+![](./imgs/lec1/graph4.svg)
+
+![](./imgs/lec1/graph5.svg)
+
+![](./imgs/lec1/graph6.svg)
+
+
