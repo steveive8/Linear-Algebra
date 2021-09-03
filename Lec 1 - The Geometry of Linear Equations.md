@@ -193,7 +193,13 @@ Okay, so let me take the column picture.
 
 ## Column Picture
 
+So, let's start with describing the matrix form first.
+
 ![](./imgs/lec1/3-4.svg)
+
+For the column picture, we can describe this as below.
+
+![](./imgs/lec1/3-5.svg)
 
 So the left hand side, what we've got?
 
@@ -212,9 +218,10 @@ So what's the solution?
 
 What combination will work?
 
-I just want one of these and none of these.
+I just want ***column3*** and none of ***column1*** and ***column2***.
 
 So x should be zero, y should be zero and z should be one. That's the combination.
+
 One of those is obviously the right one. Column three is actually the same as b in this particular problem.
 
 I made it work that way just so we would get an answer, (0,0,1), so somehow that's the point where those three planes met and I couldn't see it before.
@@ -228,22 +235,26 @@ So the lecture that's coming up.
 Can I just think again, though, about the big picture?
 
 By the big picture I mean let's keep this same matrix on the left but imagine that we have a different right-hand side.
-So I'll change that right-hand side to something that actually is also pretty special. Let me change it to if I add those first two columns, that would give me a one and a one and a minus three.
+So I'll change that right-hand side to something that actually is also pretty special. 
+
+Let me change it to if I add those first two columns, that would give me a one and a one and a minus three.
+
+
+
 
 There's a very special right-hand side. I just cooked it up by adding this one to this one.
 
 Now, what's the solution with this new right-hand side?
 
-The solution with this new right-hand side is clear.
-took one of these and none of those.
-So actually, it just changed around to this
-when I took this new right-hand side.
+The solution with this new right-hand side is clear. Took one of components of ***column1*** and ***columns2*** and none of ***columns3***.
+
+So actually, it just changed around to this when I took this new right-hand side.
+
 Okay.
-So in the row picture, I have three different planes,
-three new planes meeting now at this point.
-In the column picture, I have the same three columns,
-but now I'm combining them to produce this guy,
-and it turned out that column one plus column two which would
+
+- So in the row picture, **I have three different planes**, three **new planes** meeting now at this point.
+
+- In the column picture, I have the **same three columns**, but now I'm combining them to produce this guy, and it turned out that column one plus column two which would
 be somewhere -- there is the right column --
 one of this and one of this would give me the new b.
 Okay.
