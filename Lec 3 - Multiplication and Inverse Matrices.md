@@ -1,12 +1,13 @@
  # Lec 1. Multiplication and Inverse Matrices
 
- ## Linear Algebra, Gilbert Strang. MIT Lecture 2005 Spring
+## Linear Algebra, Gilbert Strang. MIT Lecture 2005 Spring
 
- ## Edited By Steve Ive
+## Edited By Steve Ive
+This article is based on Gilbert Strang's lecture script. The article will be described according to the flow of the lecture.
 
  I've been multilplying matrices already, but certainly time for me to discuss the rules for matrix multiplication. The interesting part is there are many ways you can do it, and they all give the same answers and they are all important.
 
- ### Things we are going to cover this lecture
+ ### The Things we are going to cover this lecture
 
  - Matrix Multiplication
 
