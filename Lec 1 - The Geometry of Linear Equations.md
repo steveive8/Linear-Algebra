@@ -421,7 +421,7 @@ But I also like to see it by columns. I see this as a linear combination of a co
 
 So here's my point.
 
-## A times x is a combination of the columns of A.
+## ***A times x is a combination of the columns of A.***
 
 That's how I hope you will think of A times x when we need it.
 
