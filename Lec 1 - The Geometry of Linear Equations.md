@@ -369,9 +369,6 @@ Okay.
 
 ![](./imgs/lec1/ax=b.svg)
 
-![](./imgs/lec1/3-7.svg)
-
-
 
 The matrix form of my equation, of my system is some matrix A times some vector x equals some right-hand side b.
 
@@ -395,11 +392,13 @@ But just think a little bit about matrix notation and how to do that in multipli
 
 Let me tell you my favorite way. It's columns again. It's a **column at a time**.
 
-### Matrix Multiplication with Column Picture way
+## Matrix Multiplication with Column Picture way
 
 For me, this matrix multiplication says I take one of that column and two of that column and add.
 
 So this is the way I would think of it is one of the first column and two of the second column and let's just see what we get.
+
+![](./imgs/lec1/3-7.svg)
 
 So in the first component I'm getting a two and a ten. I'm getting a twelve there.
 
@@ -409,17 +408,13 @@ So that matrix times that vector is twelve seven.
 
 Now, you could do that another way. You could do it a **row at a time**.
 
-## Matrix Multiplication with sRow Picture way, the Dot Product
+## Matrix Multiplication with Row Picture way, the Dot Product
 
-I could take that row times my vector.
-This is the idea of a dot product.
-This vector times this vector, two times one plus five times
-two is the twelve.
-This vector times this vector -- one times one plus three times
-two is the seven.
-So I can do it by rows, and in each row times
-my x is what I'll later call a dot product.
+I could take that row times my vector. This is the idea of a dot product. 
 
+![](./imgs/lec1/3-8.svg)
+
+So I can do it by rows, and in each row times my x is what I'll later call a dot product.
 
 But I also like to see it by columns. I see this as a linear combination of a column.
 
@@ -439,7 +434,7 @@ And if the right-hand side B happened to be twelve seven, then of course the cor
 Okay.
 
 So let me come back next time to a systematic way, using **elimination**, to find the solution, if there is one, to a system of any size and find out.
-if elimination fails, then find out when there isn't a solution.
+If elimination fails, then find out when there isn't a solution.
 
 Okay.
 
