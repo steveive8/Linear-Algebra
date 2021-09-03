@@ -381,7 +381,7 @@ A times x.
 Matrix times vector, and I just want to say how do you multiply a matrix by a vector?
 
 Okay, so I'm just going to create a matrix, let me take two five one three --
-and let me take a vector x to be, say, 1cand 2.
+and let me take a vector x to be, say, 1 and 2.
 
 ![](./imgs/lec1/3-9.svg)
 
