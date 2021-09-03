@@ -369,8 +369,6 @@ Okay.
 
 ![](./imgs/lec1/ax=b.svg)
 
-![](./imgs/lec1/3-9.svg)
-
 The matrix form of my equation, of my system is some matrix A times some vector x equals some right-hand side b.
 
 Okay.
@@ -383,7 +381,9 @@ A times x.
 Matrix times vector, and I just want to say how do you multiply a matrix by a vector?
 
 Okay, so I'm just going to create a matrix, let me take two five one three --
-and let me take a vector x to be, say, 1and 2.
+and let me take a vector x to be, say, 1cand 2.
+
+![](./imgs/lec1/3-9.svg)
 
 **How do I multiply a matrix by a vector?**
 
