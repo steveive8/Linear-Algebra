@@ -329,101 +329,89 @@ All the combinations are in the plane and only right-hand sides b that I could g
 
 So I could solve it for some right-hand sides, when b is in the plane, but most right-hand sides would be out of the plane and unreachable.
 
-**So that would be a singular case.**
+- **So that would be a singular case.**
 
-**The matrix would be not invertible.**
+- **The matrix would be not invertible.**
 
 There would not be a solution for every b. The answer would become no for that.
 
-shall we take just a little shot at thinking about nine dimensions? Imagine that we have vectors with nine components.
+Shall we take just a little shot at thinking about nine dimensions? Imagine that we have vectors with nine components.
 Well, it's going to be hard to visualize those. I don't pretend to do it.  But somehow, pretend you do.
-Pretend we have -- if this was nine equations and nine unknowns, then we would have nine columns, 
-and each one would be a vector in nine-dimensional space
+Pretend we have - if this was nine equations and nine unknowns, then we would have nine columns, and each one would be a vector in nine-dimensional space
 and we would be looking at their linear combinations.
 
-So we would be having the linear combinations
-of nine vectors in nine-dimensional space,
-and we would be trying to find the combination that hit
-the correct right-hand side b.
+So we would be having the linear combinations of nine vectors in nine-dimensional space, and we would be trying to find the combination that hit the correct right-hand side b.
 
-And we might also ask the question can we always do it?
-Can we get every right-hand side b?
+And we might also ask the question can we always do it? Can we get every right-hand side b?
 
-And certainly it will depend on those nine columns.
-Sometimes the answer will be yes --
-if I picked a random matrix, it would be yes, actually.
+**And certainly it will depend on those nine columns.**
 
-If I used MatLab and just used the random command, picked
-out a nine by nine matrix, I guarantee it would be
-good.
+Sometimes the answer will be **yes** --if I picked a random matrix, it would be yes, actually.
 
-It would be non-singular, it would
-be invertible, all beautiful.
+If I used MatLab and just used the random command, picked out a nine by nine matrix, I guarantee it would be good.
 
-But if I choose those columns so that they're not independent,
-so that the ninth column is the same as the eighth column,
-then it contributes nothing new and there
-would be right-hand sides b that I couldn't get.
-Can you sort of think about nine vectors
-in nine-dimensional space an take their combinations?
-That's really the central thought --
-that you get kind of used to in linear algebra.
-Even though you can't really visualize it,
-you sort of think you can after a while.
-Those nine columns and all their combinations
-may very well fill out the whole nine-dimensional space.
-But if the ninth column happened to be the same as the eighth
-column and gave nothing new, then probably what it would
-fill out would be --
-I hesitate even to say this -- it would be a sort of a plane
---
-an eight dimensional plane inside nine-dimensional space.
-And it's those eight dimensional planes
-inside nine-dimensional space that we
-have to work with eventually.
-For now, let's stay with a nice case where the matrices work,
-we can get every right-hand side b and here
-we see how to do it with columns.
+It would be non-singular, it would be invertible, all beautiful.
+
+**But if I choose those columns so that they're not independent,** so that the ninth column is the same as the eighth column, then it contributes nothing new and there would be right-hand sides b that I couldn't get.
+
+Can you sort of think about nine vectors in nine-dimensional space an take their combinations? That's really the central thought -- that you get kind of used to in linear algebra.
+
+Even though you can't really visualize it, you sort of think you can after a while. Those nine columns and all their combinations may very well fill out the whole nine-dimensional space. But if the ninth column happened to be the same as the eighth column and gave nothing new, then probably what it would
+fill out would be - I hesitate even to say this - it would be a sort of a plane - an eight dimensional plane inside nine-dimensional space.
+
+And it's those eight dimensional planes inside nine-dimensional space that we have to work with eventually.
+
+For now, let's stay with a nice case where the matrices work, we can get every right-hand side b and here we see how to do it with columns.
+
 Okay.
-There was one step which I realized
-I was saying in words that I now want to write in letters.
-Because I'm coming back to the matrix form of the equation,
-so let me write it here.
-The matrix form of my equation, of my system
-is some matrix A times some vector x
-equals some right-hand side b.
+
+## The Matrix form
+
+![](./imgs/lec1/ax=b.svg)
+
+![](./imgs/lec1/3-7.svg)
+
+
+
+The matrix form of my equation, of my system is some matrix A times some vector x equals some right-hand side b.
+
 Okay.
+
 So this is a multiplication.
+
 A times x.
-Matrix times vector, and I just want to say
-how do you multiply a matrix by a vector?
-Okay, so I'm just going to create a matrix --
-let me take two five one three --
+
+
+Matrix times vector, and I just want to say how do you multiply a matrix by a vector?
+
+Okay, so I'm just going to create a matrix, let me take two five one three --
 and let me take a vector x to be, say, 1and 2.
-How do I multiply a matrix by a vector?
-But just think a little bit about matrix notation
-and how to do that in multiplication.
-So let me say how I multiply a matrix by a vector.
-Actually, there are two ways to do it.
-Let me tell you my favorite way.
-It's columns again.
-It's a column at a time.
-For me, this matrix multiplication
-says I take one of that column and two of that column and add.
-So this is the way I would think of it
-is one of the first column and two of the second column
-and let's just see what we get.
-So in the first component I'm getting a two and a ten.
-I'm getting a twelve there.
-In the second component I'm getting a one and a six,
-I'm getting a seven.
+
+**How do I multiply a matrix by a vector?**
+
+But just think a little bit about matrix notation and how to do that in multiplication. So let me say how I multiply a matrix by a vector.
+
+**Actually, there are two ways to do it.**
+
+Let me tell you my favorite way. It's columns again. It's a **column at a time**.
+
+### Matrix Multiplication with Column Picture way
+
+For me, this matrix multiplication says I take one of that column and two of that column and add.
+
+So this is the way I would think of it is one of the first column and two of the second column and let's just see what we get.
+
+So in the first component I'm getting a two and a ten. I'm getting a twelve there.
+
+In the second component I'm getting a one and a six, I'm getting a seven.
+
 So that matrix times that vector is twelve seven.
-Now, you could do that another way.
-You could do it a row at a time.
-And you would get this twelve -- and actually I pretty much did
-it here --
-this way.
-Two -- I could take that row times my vector.
+
+Now, you could do that another way. You could do it a **row at a time**.
+
+## Matrix Multiplication with sRow Picture way, the Dot Product
+
+I could take that row times my vector.
 This is the idea of a dot product.
 This vector times this vector, two times one plus five times
 two is the twelve.
@@ -431,26 +419,30 @@ This vector times this vector -- one times one plus three times
 two is the seven.
 So I can do it by rows, and in each row times
 my x is what I'll later call a dot product.
-But I also like to see it by columns.
-I see this as a linear combination of a column.
+
+
+But I also like to see it by columns. I see this as a linear combination of a column.
+
 So here's my point.
-A times x is a combination of the columns of A.
-That's how I hope you will think of A times x when we need
-it.
-Right now we've got -- with small ones,
-we can always do it in different ways, but later,
-think of it that way.
+
+## A times x is a combination of the columns of A.
+
+That's how I hope you will think of A times x when we need it.
+
+Right now we've got with small ones, we can always do it in different ways, but later, think of it that way.
+
 Okay.
+
 So that's the picture for a two by two system.
-And if the right-hand side B happened to be twelve seven,
-then of course the correct solution would be one two.
+
+And if the right-hand side B happened to be twelve seven, then of course the correct solution would be one two.
 Okay.
-So let me come back next time to a systematic way,
-using elimination, to find the solution, if there is one,
-to a system of any size and find out--
-because the system-- because if elimination fails--
-find out when there isn't a solution.
+
+So let me come back next time to a systematic way, using **elimination**, to find the solution, if there is one, to a system of any size and find out.
+if elimination fails, then find out when there isn't a solution.
+
 Okay.
+
 Thanks.
 
 
