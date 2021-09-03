@@ -147,15 +147,22 @@ By **Linear Combination**, we will solve this by multiplying some appropriate nu
 
 As above, we can get the right answer, the b of [0,3] by multiplying and adding two columns.
 
-So, now, we can think about can we get all the xs and ys to all the bs in the 2-dimension?
+So, now, we can think about "Can we get all the xs and ys to all the bs in the 2-dimension?"
 
-It means, that, can we get the result of xs and ys that can pointing all the points in this 2-dimension?
+It means, that, "can we get the result of xs and ys that can pointing all the points in this 2-dimension?"
 
 It is important to think that. We will cover that later.
 
 So, Let's go to the next example, the 3 equations, and 3 unknowns.
 
 ## 3 equations, 3 unknowns
+
+![](./imgs/lec1/3-1.svg)
+
+![](./imgs/lec1/3-2.svg)
+
+![](./imgs/lec1/3-3.svg)
+
 
 ![](./imgs/lec1/graph5.svg)
 
