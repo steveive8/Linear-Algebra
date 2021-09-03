@@ -104,7 +104,7 @@ The points that satisfying the equation 1.
 
 So there's the points that solve these equation and I could put in more points. But, let me put in all the points at once, because they all lie on a straight line.
 
-![](./imgs/lec1/graph1.svg)
+![](./imgs/lec1/graph2.svg)
 
 As above, the point that lies both lines is the important thing, the solution.
 
@@ -137,10 +137,25 @@ The thing we are going to do is just find appropriate x and y to produce the rig
 
 So let's go to the geometry of this.
 
-![](./imgs/lec1/graph2.svg)
 ![](./imgs/lec1/graph3.svg)
 
+As above, we can describe the two columns.
+
+By **Linear Combination**, we will solve this by multiplying some appropriate numbers to these columns, and adding it.
+
 ![](./imgs/lec1/graph4.svg)
+
+As above, we can get the right answer, the b of [0,3] by multiplying and adding two columns.
+
+So, now, we can think about can we get all the xs and ys to all the bs in the 2-dimension?
+
+It means, that, can we get the result of xs and ys that can pointing all the points in this 2-dimension?
+
+It is important to think that. We will cover that later.
+
+So, Let's go to the next example, the 3 equations, and 3 unknowns.
+
+## 3 equations, 3 unknowns
 
 ![](./imgs/lec1/graph5.svg)
 
