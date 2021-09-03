@@ -237,9 +237,10 @@ Can I just think again, though, about the big picture?
 By the big picture I mean let's keep this same matrix on the left but imagine that we have a different right-hand side.
 So I'll change that right-hand side to something that actually is also pretty special. 
 
-Let me change it to if I add those first two columns, that would give me a one and a one and a minus three.
+Let me change it to if I add first column and second column, that would give me a one and a one and a minus three.
 
 
+![](./imgs/lec1/3-6.svg)
 
 
 There's a very special right-hand side. I just cooked it up by adding this one to this one.
@@ -254,9 +255,10 @@ Okay.
 
 - So in the row picture, **I have three different planes**, three **new planes** meeting now at this point.
 
-- In the column picture, I have the **same three columns**, but now I'm combining them to produce this guy, and it turned out that column one plus column two which would
-be somewhere -- there is the right column --
-one of this and one of this would give me the new b.
+- In the column picture, I have the **same three columns**, but now I'm combining them to produce the b, and it turned out that column one plus column two.
+
+![](./imgs/lec1/graph6.svg)
+
 Okay.
 So we squeezed in an extra example.
 But now think about all bs, all right-hand sides.
