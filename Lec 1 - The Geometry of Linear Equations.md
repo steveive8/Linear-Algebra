@@ -46,9 +46,11 @@ So, let's take an example.
 ## 2 equations, 2 unknowns
 
 ![](./imgs/lec1/2x-y=0.svg)
+
 ![](./imgs/lec1/-x+2y=3.svg)
 
 ![](./imgs/lec1/2by2.svg)
+
 ![](./imgs/lec1/ax=b.svg)
 
 ![](./imgs/lec1/graph1.svg)
