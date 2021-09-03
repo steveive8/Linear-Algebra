@@ -117,6 +117,6 @@ So the column picture.
 
 I'm now going to look at the columns of the matrix.
 
-I'm going to look at this part and this part.
+I'm going to look at this part ![](./imgs/lec1/2-1.svg) and this part ![](./imgs/lec1/-1,2.svg).
 
 I'm kind of getting the two equations at once --
