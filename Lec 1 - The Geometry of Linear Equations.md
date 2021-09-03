@@ -14,24 +14,24 @@ The core of the thing is that we will see through problem with the new sight of 
 
 ### Things we are going to cover this lecture
 
-- The pictures of how to see the problem.
+#### The pictures of how to see the problem.
 
-> Row Picture
+- Row Picture
 
-> **Column Picture**
+- **Column Picture**
 
-> Matrix Form
+- Matrix Form
 
-- Can I solve Ax = b for every b? 
+#### Can I solve Ax = b for every b? 
 (every b means the all the bs in three dimentional space)
 
-> Singular, non-Singular
+- Singular, non-Singular
 
-- The way of matrix mulitplication
+#### The way of matrix mulitplication
 
-> Row picture: The Dot Product
+- Row picture: The Dot Product
 
-> Column Picture: **The Linear Combination**.
+- Column Picture: **The Linear Combination**.
 
 
 So, let's take an example.
