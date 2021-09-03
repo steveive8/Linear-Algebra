@@ -49,8 +49,33 @@ So, let's take an example.
 
 ![](./imgs/lec1/-x+2y=3.svg)
 
+At above, we can see the problem that consists two equations and two unknowns.
+
+**Before the picture of it**, Let just first describe this as matrix form.
+
 ![](./imgs/lec1/2by2.svg)
 
+So what's the coefficient matrix? Anyway what is the matrix though?
+
+The matrix is **just a rectangular array of numbers.**
+
+Here, we have the coefficient matrix on the left side, We'll call it ***A***.
+
+Also, we have the vector that contains two components, the unknowns x, y. We will call this as ***X***.
+
+On the right side hand, we have the vector that contains 0 and 3. And we will call this as ***b***
+
+So, We can describe this though.
+
 ![](./imgs/lec1/ax=b.svg)
+
+So the linear equations are now the AX = b.
+
+And the idea now, that to solve this particular problem and then step back to see the bigger picture. Okay. What's the picture for this example, the Row Picture?
+
+
+## Row Picture
+
+
 
 ![](./imgs/lec1/graph1.svg)
