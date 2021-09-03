@@ -292,13 +292,9 @@ Solving Ax - that's very important.
 
 A times x - when I multiply a matrix by a vector, I get a combination of the columns.
 
-I'll write that down in a moment.
-
 But in my column picture, that's really what I'm doing.
 
 I'm taking **linear combinations** of these three columns and I'm trying to find b.
-
-And, actually, the answer for this matrix will be yes.
 
 For this matrix A - for these columns, the answer is **yes**.
 
@@ -312,60 +308,58 @@ Those will be the matrices that we like best.
 
 There could be other and we will see other matrices where the answer becomes, **no**.
 
-oh, actually, you can see when it would become no.
-What could go wrong? find out -- because if elimination fails,
-How could it go wrong that out of these --
-out of three columns and all their combinations --
-when would I not be able to produce some b off here?
-When could it go wrong?
-Do you see that the combinations --
-let me say when it goes wrong.
-If these three columns all lie in the same plane,
-then their combinations will lie in that same plane.
+
+## When the matrix become singular
+
+If these three columns all lie in the same plane, then their combinations will lie in that same plane.
+
 So then we're in trouble.
-If the three columns of my matrix --
-if those three vectors happen to lie in the same plane --
-for example, if column three is just
-the sum of column one and column two, I would be in trouble.
-That would be a matrix A where the answer would be no,
-because the combinations --
-if column three is in the same plane as column one and two,
-I don't get anything new from that.
-All the combinations are in the plane and only right-hand sides
-b that I could get would be the ones in that plane.
-So I could solve it for some right-hand sides, when
-b is in the plane, but most right-hand sides
-would be out of the plane and unreachable.
-So that would be a singular case.
-The matrix would be not invertible.
-There would not be a solution for every b.
-The answer would become no for that.
-Okay.
-I don't know --
-shall we take just a little shot at thinking
-about nine dimensions?
-Imagine that we have vectors with nine components.
-Well, it's going to be hard to visualize those.
-I don't pretend to do it.
-But somehow, pretend you do.
-Pretend we have -- if this was nine equations and nine
-unknowns, then we would have nine columns,
+
+If the three columns of my matrix, if those three vectors happen to lie in the same plane,
+
+for example, if column three is just the sum of column one and column two, I would be in trouble.
+
+![](./imgs/lec1/graph8.svg)
+
+That would be a matrix A where the answer would be **no**, because the combinations, if column three is in the same plane as column one and two,
+
+**I don't get anything new from that.**
+
+All the combinations are in the plane and only right-hand sides b that I could get would be the ones in that plane.
+
+So I could solve it for some right-hand sides, when b is in the plane, but most right-hand sides would be out of the plane and unreachable.
+
+**So that would be a singular case.**
+
+**The matrix would be not invertible.**
+
+There would not be a solution for every b. The answer would become no for that.
+
+shall we take just a little shot at thinking about nine dimensions? Imagine that we have vectors with nine components.
+Well, it's going to be hard to visualize those. I don't pretend to do it.  But somehow, pretend you do.
+Pretend we have -- if this was nine equations and nine unknowns, then we would have nine columns, 
 and each one would be a vector in nine-dimensional space
 and we would be looking at their linear combinations.
+
 So we would be having the linear combinations
 of nine vectors in nine-dimensional space,
 and we would be trying to find the combination that hit
 the correct right-hand side b.
+
 And we might also ask the question can we always do it?
 Can we get every right-hand side b?
+
 And certainly it will depend on those nine columns.
 Sometimes the answer will be yes --
 if I picked a random matrix, it would be yes, actually.
+
 If I used MatLab and just used the random command, picked
 out a nine by nine matrix, I guarantee it would be
 good.
+
 It would be non-singular, it would
 be invertible, all beautiful.
+
 But if I choose those columns so that they're not independent,
 so that the ninth column is the same as the eighth column,
 then it contributes nothing new and there
