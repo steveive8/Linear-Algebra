@@ -15,7 +15,7 @@ So the third -- the algebra way to look at the problem is the **matrix form** an
 
 The core of the thing is that we will see through problem with the new sight of **Column Picture** which is the ***linear combination*** of the columns of matrix.
 
---
+---
 
 ### The Things we are going to cover this lecture
 
@@ -76,6 +76,22 @@ And the idea now, that to solve this particular problem and then step back to se
 
 ## Row Picture
 
+Okay, so here comes the Row picture. So that means I take one row at a time and I'm drawing here the xy plane and I'm going to plot all the points that satisfy that first equation.
 
+The Points that satisfy this first equation, ![](./imgs/lec1/2x-y=0.svg)
+
+- x = 0, y = 0
+- x = 1, y = 2
+
+The Points that satisfy this second equation, ![](./imgs/lec1/-x+2y=3.svg)
+
+- x = -1, y = 1
+- x = -3, y = 0
+
+So there's the points that solve these equation. And I could put in more points.
+But, but let me put in all the points at once, because they all lie on a straight line.
 
 ![](./imgs/lec1/graph1.svg)
+
+
+
