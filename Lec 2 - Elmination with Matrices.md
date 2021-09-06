@@ -29,6 +29,10 @@ Today on the Lecture, we are going to solve a system of equations with the metho
 
 Okay, so there's a system of equations. Three equations and three unknowns. And there's the matrix, the three by three matrix. So this is the system Ax = b.
 
+![](./imgs/lec2/2-1.svg)
+
+![](./imgs/lec2/4.svg)
+
 This is our system to solve, Ax equal the right-hand side is that vector 2, 12, 2. Okay.
 
 Now, when I describe elimination, it gets to be a pain to keep writing the equal signs and the pluses and so on.
