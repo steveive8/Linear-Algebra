@@ -31,6 +31,10 @@ Okay, so there's a system of equations. Three equations and three unknowns. And 
 
 ![](./imgs/lec2/2-1.svg)
 
+![](./imgs/lec2/2.svg)
+
+![](./imgs/lec2/3.svg)
+
 ![](./imgs/lec2/4.svg)
 
 This is our system to solve, Ax equal the right-hand side is that vector 2, 12, 2. Okay.
