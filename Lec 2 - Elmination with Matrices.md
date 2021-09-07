@@ -104,7 +104,9 @@ Also, we can say the process of the elimination is the way of converting the mat
 So, when we write our equations back from the derived matrix, we can write as
 
 ![](./imgs/lec2/11.svg)
+
 ![](./imgs/lec2/12.svg)
+
 ![](./imgs/lec2/13.svg)
 
 From here, we can find the answer. And here, we are going to do "Back Substitution".
@@ -113,11 +115,9 @@ From here, we can find the answer. And here, we are going to do "Back Substituti
 
 Above equations, we can find the answer, from the last equation, to the very first equation. So we call it as "Back Substitution".
 
-the answers.
+![](./imgs/lec2/14.svg)
 
 We can easliy find the z, the z is -2, and putting z to the second equation, we can find the y of 1, and finally we can find the x from the first equation of 2.
-
-![](./imgs/lec2/14.svg)
 
 So you see what back substitution is.
 
@@ -279,38 +279,35 @@ It's called a permutation matrix. So it's a little digession, but let me talk ab
 
 ## Permutation Matrix
 
-Suppose I want to find the matrix that exchanges those rows.
+### Permutation Matrix: Exchanging the rows
 
-rows picture
+Suppose I want to find the matrix that exchanges those rows below.
 
-What is it?
-So the matrix that exchanges those rows, the row I want is c d and it's there.
-So I better take one of it.
-And the row I want here is up top, so I'll take one of that.
-So actually, I'm just --
-the easy way -- this is my matrix that I'll call P,
-for permutation.
-It's the matrix -- actually, the easy way to find it is just do
-the thing to the identity matrix.
-Exchange the rows of the identity matrix
-and then that's the matrix that will do row exchanges for you.
-Suppose I wanted to exchange columns instead.
-Columns have hardly got into today's lecture,
-but they certainly are going to be around.
-How could I -- if I started with this matrix |a b; c d|
-then I wouldn't --
-I'm not even going to write this down,
-I'm just going to ask you, because in elimination, we're
-doing rows.
-But suppose we wanted to exchange
-the columns of a matrix.
-How would I do that?
-What matrix multiplication would do that job?
-Actually, why not?
-I'll write it down.
-So this is --
-I'll write it under here and then hide it again.
-Okay.
+### [[a, b],
+### [c, d]]
+
+So we want the matrix that exchanges those rows, what I want is exchanging c, d with a b.
+
+Let me call the that matrix as a permutation matrix P.
+
+### P x [[a, b], = [[c, d],
+###      [c, d]]     [a, b]]
+
+As the row operation, we want to get the second row of it, so the the top of the matrix P will be [0, 1] and the second row of the matrix P will be [1, 0]
+
+![](./imgs/lec2/25.svg)
+
+Actually, the easy way to find it is just do the thing to the identity matrix.
+
+Exchange the rows of the identity matrix and then that's the matrix that will do row exchanges for you.
+
+
+### Permutation Matrix: Exchanging the columns
+
+Suppose I wanted to exchange columns instead. Columns have hardly got into today's lecture, but they certainly are going to be around.
+
+
+
 Suppose I had my matrix |a b; c d|
 and I want to get to a c over here and b d here.
 What matrix does that job?
