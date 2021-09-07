@@ -370,9 +370,10 @@ Inverse -- I'll use the word inverse here.
 
 ## Inverse
 
-So let me make the first step at what's the inverse matrix?
+So let me make the first step.
+What's the inverse matrix?
 
-All the matrices you've seen on this board have inverses.
+All the matrices you've seen today have inverses.
 
 I didn't write any bad matrices down.
 
@@ -388,8 +389,6 @@ So we're getting a little leg up on inverses.
 The example I'll take will be that E. So my matrix is below.
 
 ![](./imgs/lec2/E.svg)
-
-Let me suppose this matrix is A.
 
 And I want to find the matrix that undoes that step.
 
@@ -426,7 +425,7 @@ So to invert it, I go that way.
 And if you -- if we do that calculation, 3 times this row plus 1 times this row,
 comes out the right row of the identity.
 
-Okay, so inverses are an -- so if the matrix A was E, and right side matrix is I for identity, then what's the notation for this guy below?
+Okay, so inverses are an -- so with the matrix E, and right side matrix is I for identity, then what's the notation for the left guy?
 
 ![](./imgs/lec2/33.svg)
 
