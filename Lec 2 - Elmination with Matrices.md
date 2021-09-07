@@ -39,6 +39,8 @@ Okay, so there's a system of equations. Three equations and three unknowns.
 
 And there's the matrix, the three by three matrix.
 
+matrices
+
 ![](./imgs/lec2/4.svg)
 
 So this is the system Ax = b.
@@ -100,6 +102,81 @@ Also, we can say the process of the elimination is the way of converting the mat
 ![](./imgs/lec2/30.svg)
 
 So, when we write our equations back from the derived matrix, we can write as
+
+equations
+
+From here, we can find the answer. And here, we are going to do "Back Substitution".
+
+## Back Substitution
+
+Above equations, we can find the answer, from the last equation, to the very first equation. So we call it as "Back Substitution".
+
+the answers.
+
+We can easliy find the z, the z is -2, and putting z to the second equation, we can find the y of 1, and finally we can find the x from the first equation of 2.
+
+> x = 2, y = 1, z = -2
+
+So you see what back substitution is.
+
+**It's the simple step solving the equations in reverse order because the system is triangular.**
+
+So, the first piece of the lecture is done. What is the second piece of the lecture then? We will operate our elimination step with matrix expression.
+
+## Elimination Matrices
+
+So, let me just assume that we want to eliminate the matrix below.
+
+matrix.
+
+How can we eliminate this matrix?
+
+Well before that, let's point out something, since the matrix operation is able to see in a big picture. So, we are going to first point out about the matrix multiplication.
+
+What was the thing in the first lecture?
+
+We've said "the result of multiplying a matrix by some vector is a combination of the columns of the matrix".
+
+## Matrix Multiplication for column operation
+
+As we've seen in the last lecture, we can say the matrix multiply the vector can be seen as the combination of the matrix, the linear combination of the columns of the matrix.
+
+so, suppose we multiply some matrix with the vector of 3, 4, 5.
+
+We can express this as below.
+
+image.
+
+As you can see, we can express this as the "column picture", the column operation. But, what we need today is the row operation. I wrote this because I just wanted to emphasize the parallel thing of the row operation. So, let's go to the row operation.
+
+## Matrix Multiplication for row operation
+
+Suppose we have the matrix again, and multiply the vector on the left of containing 1, 2, 7.
+
+image
+
+So, what's the output? What's the product of a row times a matrix? 
+
+It's a row. What it's doing in this case is it's combining the rows.
+
+And we have a combination, a linear combination of the rows.
+
+---
+
+So what we can find is that
+
+#### ***Matrix times a column is a column.*** (Matrix x Column = Column)
+
+#### ***Row times a Matrix is a row.***(Row x Matrix = Row)
+
+As we do matrix multiplication, remember to keep your eye on what it's doing with whole vectors.
+
+Okay, I want to use that.
+
+---
+
+### Back to Elimination Matrices
+
 
 
 So what do I multiply and again, I'll do it with this matrix, because I can do it short. What's the multiplier here?
