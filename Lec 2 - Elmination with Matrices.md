@@ -283,15 +283,14 @@ It's called a permutation matrix. So it's a little digession, but let me talk ab
 
 Suppose I want to find the matrix that exchanges those rows below.
 
-### [[a, b],
-### [c, d]]
+![](./imgs/lec2/abcd.svg)
 
 So we want the matrix that exchanges those rows, what I want is exchanging c, d with a b.
 
 Let me call the that matrix as a permutation matrix P.
 
-### P x [[a, b], = [[c, d],
-###      [c, d]]     [a, b]]
+![](./imgs/lec2/abcd2.svg)
+
 
 As the row operation, we want to get the second row of it, so the the top of the matrix P will be [0, 1] and the second row of the matrix P will be [1, 0]
 
@@ -306,120 +305,135 @@ Exchange the rows of the identity matrix and then that's the matrix that will do
 
 Suppose I wanted to exchange columns instead. Columns have hardly got into today's lecture, but they certainly are going to be around.
 
+Suppose I had my matrix below
 
+![](./imgs/lec2/abcd.svg)
 
-Suppose I had my matrix |a b; c d|
 and I want to get to a c over here and b d here.
+
 What matrix does that job?
-Can I multiply -- can I cook up some matrix that produces that
-answer?
-You can see from where I put my hand I was really
-asking can I put a matrix here on the left that
-will exchange columns?
+
+Can I cook up some matrix that produces that answer?
+
+Can I put a matrix here on the left that will exchange columns?
+
 And the answer is no.
-I'm just bringing out again this point
-that when I multiply on the left, I'm doing row operations.
-So if I want to do a column operation,
-where do I put that permutation matrix?
+
+I'm just bringing out again this point that when I multiply on the left, I'm doing **row operations**.
+
+So if I want to do a column operation, where do I put that permutation matrix?
+
 On the right.
-If I put it here, where I just barely left room for it --
-so I'll exchange the two columns of the identity.
-Then it comes out right, because now I'm
-multiplying a column at a time.
-This is the first column and says take one --
-take none of that column, one of this one and then you
-got it.
-Over here, take one of this one, none
-of this one and you've got a c.
-So, in short, to do column operations,
-the matrix multiplies on the right.
-To do row operations, it multiplies on the left.
-Okay, okay, and it's row operations that we're really
-doing.
-Okay.
-And of course, I mentioned in passing,
-but I better say it very clearly that you can't exchange
-the orders of matrices.
+
+If I put it on right, I'll exchange the two columns of the identity.
+
+Then it comes out right, because now I'm multiplying a column at a time.
+
+![](./imgs/lec2/26.svg)
+
+#### ***So, in short, to do column operations, the matrix multiplies on the right.***
+
+#### ***To do row operations, it multiplies on the left.***
+
+### Take a Moment!
+> you can't exchange the orders of matrices.
 And that's just the point I was making again here.
+
 A times B is not the same as B times A.
-You have to keep these matrices in their Gauss given order
-here, right?
-But you can move the parentheses,
-so that, in other words, the commutative law, which
+
+You have to keep these matrices in their Gauss given order here, right?
+
+But you can move the parentheses, so that, in other words, the commutative law, which
 would allow you to take it in the other order is false.
+
 So we have to keep it in that order.
-Okay.
+
+---
+
 So what next?
-I could do this multiplication.
-I could do E 32.
+
 So let me come back to see what that was.
-Here was E 2 1.
-And here is E 3 2.
-And if I multiply those two matrices together --
-E 3 2 and then E 2 1, I'll get a single matrix
-that does elimination.
-I don't want to do it that --
-if I do that multiplication --
-there -- there's a better way to do this.
-And so in this last few minutes of today's lecture,
-can I anticipate that better way?
-The better way is to think not how do I get from A to U,
-but how do I get from U back to A?
+
+There were E_21 and E_32.
+
+And if I multiply those two matrices together, E_32 and then E_21, I'll get a single matrix that does elimination.
+
+I don't want to do it that -- if I do that multiplication -- there's a better way to do this.
+
+And so in this last few minutes of today's lecture, can I anticipate that better way?
+
+The better way is to think not how do I get from A to U, but how do I get from U back to A?
+
 So reversing steps is going to come in.
+
 Inverse -- I'll use the word inverse here.
-Okay.
+
+## Inverse
+
 So let me make the first step at what's the inverse matrix?
+
 All the matrices you've seen on this board have inverses.
+
 I didn't write any bad matrices down.
-We spoke about possible failure, and for a moment,
-we put in a matrix that would fail.
-But right now, all these matrices are good,
-they're all invertible.
-And let's take the inverse -- well,
-let me say first what does the inverse mean and find it?
+
+We spoke about possible failure, and for a moment, we put in a matrix that would fail.
+
+But right now, all these matrices are good, they're all invertible.
+And let's take the inverse -- well, let me say first what does the inverse mean and find it?
+
 Okay.
+
 So we're getting a little leg up on inverses.
-Okay, so this is the final moments of today.
-Sorry, he's still there.
-Okay.
-Inverses.
-Okay, and I'm just going to take one example
-and then we're done.
-The example I'll take will be that E. So my matrix
-is 1 0 0 minus 3 1 0 0 0 1.
+
+The example I'll take will be that E. So my matrix is below.
+
+![](./imgs/lec2/E.svg)
+
+Let me suppose this matrix is A.
+
 And I want to find the matrix that undoes that step.
+
 So what was that step?
+
 The step was subtract 3 times row one from row two.
+
 So what matrix will get me back?
-What matrix will bring back --
-you know, if I started with a 2 12 2 and I changed it to a 2 6
-2 because of this guy, I want to get back to the 2 12 I want
-to find the matrix which -- which undoes elimination,
-the matrix which multiplies this to give the identity.
-And you can tell me what I should do in words first,
-and then we'll write down the matrix that does it.
-If this step subtracted 3 times row 1 from row 2,
-what's the inverse step?
+
+I want to find the matrix which undoes elimination, the matrix which multiplies A to give the identity.
+
+![](./imgs/lec2/EI.svg)
+
+If this step subtracted 3 times row 1 from row 2, what's the inverse step?
+
 I add 3 times row one to row two, right?
+
 I add it back.
-The -- what I subtracted away, I add back.
-So the inverse matrix in this case is --
-I now want to add 3 times row one to row two,
-so I won't change row one, I won't change row three
-and I'll add 3 times row one to row two.
+
+What I subtracted away, I add back.
+
+So the inverse matrix in this case is I now want to add 3 times row one to row two, so I won't change row one, I won't change row three and I'll add 3 times row one to row two.
+
+![](./imgs/lec2/E-1.svg)
+
 That's a case where the inverse is clear.
-It's clear in words what to do, because what this did
-was simple to express.
+
+It's clear in words what to do, because what this did was simple to express.
+
 It just changed row two by subtracting 3 of row one.
+
 So to invert it, I go that way.
-And if you -- if we do that calculation,
-3 times this row plus 1 times this row,
+
+And if you -- if we do that calculation, 3 times this row plus 1 times this row,
 comes out the right row of the identity.
-Okay, so inverses are an --
-so if this matrix was E and this matrix is I for identity, then
-what's the notation for this guy?
+
+Okay, so inverses are an -- so if the matrix A was E, and right side matrix is I for identity, then what's the notation for this guy below?
+
+![](./imgs/lec2/33.svg)
+
 E to the minus one.
+
 E inverse.
+
 Okay.
 Let's stop there for today.
 That's a little jump on what's coming on Monday.
