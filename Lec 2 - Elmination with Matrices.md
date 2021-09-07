@@ -380,9 +380,7 @@ I didn't write any bad matrices down.
 We spoke about possible failure, and for a moment, we put in a matrix that would fail.
 
 But right now, all these matrices are good, they're all invertible.
-And let's take the inverse -- well, let me say first what does the inverse mean and find it?
-
-Okay.
+Let me say first what does the inverse mean and how to find it.
 
 So we're getting a little leg up on inverses.
 
