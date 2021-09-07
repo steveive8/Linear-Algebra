@@ -137,7 +137,7 @@ What was the thing in the first lecture?
 
 We've said "the result of multiplying a matrix by some vector is a combination of the columns of the matrix".
 
-## Matrix Multiplication for column operation
+### Matrix Multiplication for column operation
 
 As we've seen in the last lecture, we can say the matrix multiply the vector can be seen as the combination of the matrix, the linear combination of the columns of the matrix.
 
@@ -149,7 +149,7 @@ image.
 
 As you can see, we can express this as the "column picture", the column operation. But, what we need today is the row operation. I wrote this because I just wanted to emphasize the parallel thing of the row operation. So, let's go to the row operation.
 
-## Matrix Multiplication for row operation
+### Matrix Multiplication for row operation
 
 Suppose we have the matrix again, and multiply the vector on the left of containing 1, 2, 7.
 
@@ -176,6 +176,32 @@ Okay, I want to use that.
 ---
 
 ### Back to Elimination Matrices
+
+So, my question was what should we do with the matrix below.
+
+matrix.
+
+Let's suppose the matrix above is A.
+
+The first step we should do was multiplying 3 to the row 1, and subtract it from the row 2. And after that, the matrix will be like below.
+
+matrix.
+
+Let's suppose the matrix above is C.
+
+So what we want to do is to get the matrix B that produce C when multiplied by A.
+
+***BA = C***
+
+So, here the way. The "row operation" we described can solve this problem. For the first row of A, we don't want to change anything. So the first row of the matrix B we should get will be [1, 0, 0]. For the second row of A, we want to multiply 3 to the first row and subtract it from the second row of A. So, the second row of B will gonna be [-3, 1, 0]. The third row of A either, we want to do nothing with it, so the third row of the matrix B will gonna be [0, 0, 1]. And those will gonna produce a matrix C.
+
+step 1 picture.
+
+---
+So that was the first step. and the matrix we've got, B, we can call it "E_21" since it is for elementary of elimination and we put the indices 2, 1 to it since it fixed the position of the 2, 1 of the matrix A.
+
+What's next, the step 2 we should multiply 2 to the row 2, and subtract it from row 3.
+
 
 
 
