@@ -29,11 +29,7 @@ Today on the Lecture, we are going to solve a system of equations with the metho
 
 Okay, so there's a system of equations. Three equations and three unknowns. 
 
-![](./imgs/lec2/2-1.svg)
-
-![](./imgs/lec2/2.svg)
-
-![](./imgs/lec2/3.svg)
+![](./imgs/lec2/2-1.svg) ![](./imgs/lec2/2.svg)![](./imgs/lec2/3.svg)
 
 ---
 
@@ -84,13 +80,18 @@ This is our system to solve, Ax equal the right-hand side is that vector 2, 12, 
 ![](./imgs/lec2/23.svg)
 
 
+## Elimination
 
 Now, when I describe elimination, it gets to be a pain to keep writing the equal signs and the pluses and so on.
 
 It's that matrix that totally matters. Everything is in that matrix. But behind it is those equations.
 
 So what does elimination do? What's the first step of elimination?
+
+
+
 We accept the first equation, it's okay.
+
 I'm going to multiply that equation by the right number, the right multiplier and I'm going to subtract it from the second equation.
 
 With what purpose? So that will decide what the multiplier should be.
@@ -116,8 +117,10 @@ With what purpose? So that will decide what the multiplier should be.
 ![](./imgs/lec2/33.svg)
 
 
-Our purpose is to knock out the x part of equation two. So our purpose is to eliminate x.
+**Our purpose is to knock out the x part of equation two. So our purpose is to eliminate x.**
+
 So what do I multiply and again, I'll do it with this matrix, because I can do it short. What's the multiplier here?
+
 What do I multiply -- equation one and subtract.
 Notice I'm saying that word subtract.
 I'd like to stick to that convention.
