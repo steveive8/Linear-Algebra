@@ -27,7 +27,7 @@ Today on the Lecture, we are going to solve a system of equations with the metho
 
 ---
 
-Okay, so there's a system of equations. Three equations and three unknowns. And there's the matrix, the three by three matrix. So this is the system Ax = b.
+Okay, so there's a system of equations. Three equations and three unknowns. 
 
 ![](./imgs/lec2/2-1.svg)
 
@@ -35,9 +35,55 @@ Okay, so there's a system of equations. Three equations and three unknowns. And 
 
 ![](./imgs/lec2/3.svg)
 
+---
+
+And there's the matrix, the three by three matrix.
+
 ![](./imgs/lec2/4.svg)
 
+So this is the system Ax = b.
+
 This is our system to solve, Ax equal the right-hand side is that vector 2, 12, 2. Okay.
+
+![](./imgs/lec2/5.svg)
+
+![](./imgs/lec2/6.svg)
+
+![](./imgs/lec2/7.svg)
+
+![](./imgs/lec2/8.svg)
+
+![](./imgs/lec2/9.svg)
+
+![](./imgs/lec2/10.svg)
+
+![](./imgs/lec2/11.svg)
+
+![](./imgs/lec2/12.svg)
+
+![](./imgs/lec2/13.svg)
+
+![](./imgs/lec2/14.svg)
+
+![](./imgs/lec2/15.svg)
+
+![](./imgs/lec2/16.svg)
+
+![](./imgs/lec2/17.svg)
+
+![](./imgs/lec2/18.svg)
+
+![](./imgs/lec2/19.svg)
+
+![](./imgs/lec2/20.svg)
+
+![](./imgs/lec2/21.svg)
+
+![](./imgs/lec2/22.svg)
+
+![](./imgs/lec2/23.svg)
+
+
 
 Now, when I describe elimination, it gets to be a pain to keep writing the equal signs and the pluses and so on.
 
@@ -48,6 +94,27 @@ We accept the first equation, it's okay.
 I'm going to multiply that equation by the right number, the right multiplier and I'm going to subtract it from the second equation.
 
 With what purpose? So that will decide what the multiplier should be.
+
+![](./imgs/lec2/24.svg)
+
+![](./imgs/lec2/25.svg)
+
+![](./imgs/lec2/26.svg)
+
+![](./imgs/lec2/27.svg)
+
+![](./imgs/lec2/28.svg)
+
+![](./imgs/lec2/29.svg)
+
+![](./imgs/lec2/30.svg)
+
+![](./imgs/lec2/31.svg)
+
+![](./imgs/lec2/32.svg)
+
+![](./imgs/lec2/33.svg)
+
 
 Our purpose is to knock out the x part of equation two. So our purpose is to eliminate x.
 So what do I multiply and again, I'll do it with this matrix, because I can do it short. What's the multiplier here?
