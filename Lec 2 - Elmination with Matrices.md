@@ -29,7 +29,11 @@ Today on the Lecture, we are going to solve a system of equations with the metho
 
 Okay, so there's a system of equations. Three equations and three unknowns. 
 
-![](./imgs/lec2/2-1.svg) ![](./imgs/lec2/2.svg)![](./imgs/lec2/3.svg)
+![](./imgs/lec2/2-1.svg)
+
+![](./imgs/lec2/2.svg)
+
+![](./imgs/lec2/3.svg)
 
 ---
 
