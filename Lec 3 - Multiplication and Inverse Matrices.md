@@ -5,17 +5,17 @@
 ## Edited By Steve Ive
 This article is based on Gilbert Strang's lecture script. The article will be described according to the flow of the lecture.
 
- I've been multilplying matrices already, but certainly time for me to discuss the rules for matrix multiplication. The interesting part is there are many ways you can do it, and they all give the same answers and they are all important.
+---
 
- ### The Things we are going to cover this lecture
+I've been multilplying matrices already, but certainly time for me to discuss the rules for matrix multiplication. The interesting part is there are many ways you can do it, and they all give the same answers and they are all important.
 
- - Matrix Multiplication
 
- - Inverses
+---
 
- ## Matrix Multiplication
 
- I'll begin with how to multiply two matrices. 
+## Matrix Multiplication
+
+I'll begin with how to multiply two matrices. 
  
 First way, okay, so suppose that I have a matrix A, multiplying a matrix B and giving me a result a matrix C.
 

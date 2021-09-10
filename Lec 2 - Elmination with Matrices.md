@@ -27,7 +27,7 @@ Today on the Lecture, we are going to solve a system of equations with the metho
 
 ---
 
-Okay, so there's a system of equations. Three equations and three unknowns. 
+Okay, Let's start with example. Here's a system of equations. Three equations and three unknowns. 
 
 ![](./imgs/lec2/2-1.svg)
 
@@ -35,11 +35,11 @@ Okay, so there's a system of equations. Three equations and three unknowns.
 
 ![](./imgs/lec2/3.svg)
 
----
-
 And there's the matrix, the three by three matrix.
 
 ![](./imgs/lec2/5.svg)
+
+---
 
 ![](./imgs/lec2/4.svg)
 
@@ -67,7 +67,7 @@ With what purpose? So that will decide what the multiplier should be.
 
 ![](./imgs/lec2/5.svg)
 
-So above, first we are going to multiply "3" to the first equation and subtract from the equation 2. The number what we want to make "0" is called a "Pivot".
+So above, first we are going to multiply "3" to the first equation and subtract from the equation 2. The key number that we are starting with is called a "Pivot".
 
 ![](./imgs/lec2/29.svg)
 
