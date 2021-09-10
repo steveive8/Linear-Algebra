@@ -35,7 +35,7 @@ Okay, Let's start with example. Here's a system of equations. Three equations an
 
 ![](./imgs/lec2/3.svg)
 
-And there's the matrix, the three by three matrix.
+And we can describe those coefficients as matrix, the three by three matrix.
 
 ![](./imgs/lec2/5.svg)
 
