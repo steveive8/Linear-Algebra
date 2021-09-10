@@ -97,7 +97,20 @@ So the there are a **temporal failure** and **complete failure** of elimination,
 
 So, now we are going to write the right-hand side vector along. As the flow that we've eliminated, the right-hand side vector can be as below.
 
-Also, we can say the process of the elimination is the way of converting the matrix ***A to  U***, and for the right-hand side vector converting the vector ***b to c***.
+Also, we can say the process of the elimination is the way of converting the matrix ***A to  U***, the ***U*** for the ***upper triangular*** and for the right-hand side vector converting the vector ***b to c***.
+
+---
+### Take a Moment!
+
+**What is the upper triangular?**
+
+In the mathematical discipline of linear algebra, a triangular matrix is a special kind of square matrix. A square matrix is called lower triangular if all the entries above the main diagonal are zero. Similarly, a square matrix is called upper triangular if all the entries below the main diagonal are zero.
+
+Because matrix equations with triangular matrices are easier to solve, they are very important in numerical analysis. By the LU decomposition algorithm, an invertible matrix may be written as the product of a lower triangular matrix L and an upper triangular matrix U if and only if all its leading principal minors are non-zero.
+
+https://en.wikipedia.org/wiki/Triangular_matrix
+
+---
 
 ![](./imgs/lec2/30.svg)
 
