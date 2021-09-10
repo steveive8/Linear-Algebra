@@ -95,7 +95,7 @@ So the there are a **temporal failure** and **complete failure** of elimination,
 
 ---
 
-So, now we are going to write the right-hand side vector along. As the flow that we've eliminated, the right-hand side vector can be as above.
+So, now we are going to write the right-hand side vector along. As the flow that we've eliminated, the right-hand side vector can be as below.
 
 Also, we can say the process of the elimination is the way of converting the matrix ***A to  U***, and for the right-hand side vector converting the vector ***b to c***.
 
