@@ -100,6 +100,7 @@ So, now we are going to write the right-hand side vector along. As the flow that
 Also, we can say the process of the elimination is the way of converting the matrix ***A to  U***, the ***U*** for the ***upper triangular*** and for the right-hand side vector converting the vector ***b to c***.
 
 ---
+
 ### Take a Moment!
 
 **What is the upper triangular?**
@@ -140,9 +141,9 @@ So, the first piece of the lecture is done. What is the second piece of the lect
 
 ## Elimination Matrices
 
-So, let me just assume that we want to eliminate the matrix below.
+So, let just bring back that the matrix we want to eliminate.
 
-matrix.
+![](./imgs/lec2/5.svg)
 
 How can we eliminate this matrix?
 
@@ -198,15 +199,17 @@ So, my question was what should we do with the matrix below.
 
 ![](./imgs/lec2/5.svg)
 
-Let's suppose the matrix above is A.
+Let's suppose the matrix above is ***A***.
 
 The first step we should do was multiplying 3 to the row 1, and subtract it from the row 2. And after that, the matrix will be like below.
 
 ![](./imgs/lec2/6.svg)
 
-Let's suppose the matrix above is C.
+Let's suppose the matrix above is ***C***.
 
-So what we want to do is to get the matrix B that produce C when multiplied by A.
+So what we want to do is to get the matrix ***B*** that produce ***C*** when multiplied by ***A***.
+
+![](./imgs/lec2/ba=c.svg)
 
 ***BA = C***
 
@@ -216,10 +219,10 @@ So, here the way. The "row operation" we described can solve this problem. For t
 
 ![](./imgs/lec2/31.svg)
 
----
+
 So that was the first step. and the matrix we've got, B, we can call it "E_21" since it is for elementary of elimination and we put the indices 2, 1 to it since it fixed the position of the 2, 1 of the matrix A.
 
-What's next, the step 2, we should multiply 2 to the row 2, and subtract it from row 3. And the Matrix we should get will be called E_32, since it is the elementary or elimination matrix, and it is fixing the position of 3, 2.
+What's next, the step 2, we should multiply 2 to the row 2, and subtract it from row 3. And the Matrix we should get will be called E_32, since it is the elementary or elimination matrix, and it is fixing the position of 3, 2(equivalent meaning with producing zero).
 
 ![](./imgs/lec2/21.svg)
 
@@ -228,13 +231,15 @@ What's next, the step 2, we should multiply 2 to the row 2, and subtract it from
 
 So, I've now given you the pieces, the elimination matrices, the elementary matrices that take each step.
 
+---
+
 So now what?
 
 Now the next point in the lecture is to put those steps together into a matrix that does it all and see how it all happens.
 
 So now I'm going to express the whole, everything we did today so far on A was to start with A, we multiplied it by E_21, that was the first step and then we multiplied that result by E_32 and that led us to this thing and what was that matrix?
 
-U.
+### It's U.
 
 ![](./imgs/lec2/23.svg)
 
@@ -244,9 +249,11 @@ Now there are important facts about matrix multiplication.
 
 And we're close to maybe the most important. And that is this.
 
-Suppose I ask you this question.
+---
 
-Suppose I start with a matrix A and I want to end with a matrix U. I want to say what matrix does the whole job?
+#### Suppose I ask you this question.
+
+Suppose I start with a matrix A and I want to end with a matrix U. What matrix does the whole job?
 
 What matrix takes me from A to U, using the letters I've got? And the answer is simple.
 
@@ -254,11 +261,11 @@ I'm not asking this as but it's highly important.
 
 How would I create the matrix that does the whole job at once, that does all of elimination in one shot?
 
-I would just put these together, right?
+I would just put these together(E_32, E_21), right?
 
 In other words, this is the thing I'm struggling to say. 
 
-I can move those **parentheses**.
+#### I can move those **parentheses**.
 
 I can't mess around with the order of the matrices, but I can change the order that I do the multiplications.
 
@@ -268,9 +275,7 @@ It's saying multiply the Es first and that gives you the matrix that does everyt
 
 Okay.
 
-So this fact, that this is automatically the same as this
-
-for every matrix multiplication, which I'm conscious of still not telling you in every detail, but, like, you're seeing how it works and this is highly important.
+So this fact, that this is automatically the same as this for every matrix multiplication, which I'm conscious of still not telling you in every detail, but, like, you're seeing how it works and this is highly important.
 
 Tthe long word that describes this law for matrices, that you can move the parentheses is called the associative law.
 
@@ -280,15 +285,13 @@ come from just moving the parentheses.
 And it's not that easy to prove that this is correct, you have to go into the gory details of matrix multiplication, do it both ways and see that you come out the same.
 Maybe I'll leave the author to do that.
 
-Okay.
+Okay. So there's a single matrix, I could call it E. 
 
-So there we go.
-
-So there's a single matrix, I could call it E, while we're talking about these matrices, tell me one other. There's another type of elementary matrix, and we already said why we might need it.
+While we're talking about these matrices, tell me one other. There's another type of ***elementary matrix***, and we already said why we might need it.
 
 We didn't need it in this case. But it's the matrix that exchanges two rows.
 
-It's called a permutation matrix. So it's a little digession, but let me talk about the permutation matrix little.
+It's called a ***permutation matrix***. So it's a little digession, but let me talk about the permutation matrix little.
 
 ## Permutation Matrix
 
@@ -421,22 +424,17 @@ I add it back.
 
 What I subtracted away, I add back.
 
-So the inverse matrix in this case is I now want to add 3 times row one to row two, so I won't change row one, I won't change row three and I'll add 3 times row one to row two.
+So the inverse matrix in this case is now I want to add 3 times row one to row two, so I won't change row one, I won't change row three and I'll add 3 times row one to row two.
 
 ![](./imgs/lec2/E-1.svg)
 
 That's a case where the inverse is clear.
 
-It's clear in words what to do, because what this did was simple to express.
-
 It just changed row two by subtracting 3 of row one.
 
-So to invert it, I go that way.
+And if we do that calculation, it comes out the right row of the identity.
 
-And if you -- if we do that calculation, 3 times this row plus 1 times this row,
-comes out the right row of the identity.
-
-Okay, so inverses are an -- so with the matrix E, and right side matrix is I for identity, then what's the notation for the left guy?
+So with the matrix E, and right side matrix is I for identity, then what's the notation for the left guy?
 
 ![](./imgs/lec2/33.svg)
 
@@ -445,6 +443,6 @@ E to the minus one.
 E inverse.
 
 Okay.
-Let's stop there for today.
-That's a little jump on what's coming on Monday.
-So, see you Monday.
+Let's stop there for this lecture.
+That's a little jump on what's coming on next Lecture.
+So, see you on next lecture.
