@@ -120,7 +120,7 @@ There are various reasons that above matrix isn't invertible.
 
 If someone who knows determinants, would find the matrix's determinant is 0.
 
-#### 2. ***Looking as column picture***
+#### 2. Column Picture
 
 If I multiply this matrix A by some other matrix, then the the result -- what can you tell me about the columns?
 
@@ -170,7 +170,65 @@ With the Non-invertible matrices(singular matrices), some combinations of their 
 
 ---
 
-### Back to the matrix has a inverse
+### Back to the matrix has an inverse
 
 ![](./imgs/lec3/3-8.svg)
 
+So, how can we say this matrix has an inverse?
+
+> Those who know determinatns would taken its determinant, and found it wasn't zero.
+
+> Those who like columns (probably that department is not popular yet) would look at those two columns and say "hey, they point in different directions. So I can get anything."
+
+---
+
+### How can I going to compute A inverse?
+
+![](./imgs/lec3/3-9.svg)
+
+When you see above, you can see that finding the inverse is like solving two systems.
+
+![](./imgs/lec3/3-10.svg)
+
+![](./imgs/lec3/3-11.svg)
+
+So, we can say that as below.
+
+#### A x Column j of A inverse = Column j of I
+
+It is looking at that equatiion by columns. This is like Gauss. We're back to solving systems of equations, but we're solving two right-hand sides instead of one.
+
+> That's where Jordan comes in.
+
+#### Gauss Jordan (solve two equations at once)
+
+![](./imgs/lec3/3-12.svg)
+
+![](./imgs/lec3/3-13.svg)
+
+If I can solve with this matrix A with those two right-hand side, I'm invertible.
+
+And Jordan sort of said to Gauss, solve them together.
+
+![](./imgs/lec3/3-14.svg)
+
+![](./imgs/lec3/3-15.svg)
+
+#### So, how see this? => Here's Gilbert Strang's Gauss Jordan thing.
+
+![](./imgs/lec3/3-16.svg)
+
+![](./imgs/lec3/3-17.svg)
+
+![](./imgs/lec3/3-18.svg)
+
+- EA = I tells us E = A inverse
+- When E multiplies I, it is E.
+
+![](./imgs/lec3/3-19.svg)
+
+#### There is the statement of Gauss-Jordan elimination.
+
+---
+
+So, in conclusion we can look at it as elimination, as solving n equations at the same time, and by solving tacking on n column of Identitiy, becomes the n columns of A Inverse. Thanks.
