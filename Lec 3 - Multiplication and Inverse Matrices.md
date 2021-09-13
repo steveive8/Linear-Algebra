@@ -96,7 +96,7 @@ Ther regular way was row x columns and it gaves a number.
 
 ### Inverses (Square matrix)
 
-![](./imgs/lec3/3-6.svg)
+![](./imgs/lec3/3-7.svg)
 
 If A inverse exists (***Invertible, non-singular),
 
@@ -110,7 +110,7 @@ If A inverse exists (***Invertible, non-singular),
 
 ### Singular Case (= No Inverse)
 
-![](./imgs/lec3/3-7.svg)
+![](./imgs/lec3/3-8.svg)
 
 Why above matrix isn't invertible?
 
@@ -146,7 +146,7 @@ In fact there is another important reason.
 
 A sqaure matrix won't have inverse, **if you can find a vector X satisfying AX = 0**.
 
-![](./imgs/lec3/3-8.svg)
+![](./imgs/lec3/3-10.svg)
 
 > Here, it is important that the vector X is non-zero vector.
 
@@ -156,7 +156,7 @@ The matrix can't have an inverse if some combination of the columns gives 0. - I
 
 if A inverse exists,
 
-![](./imgs/lec3/3-9.svg)
+![](./imgs/lec3/3-11.svg)
 
 I would discover X = 0.
 
@@ -172,5 +172,5 @@ With the Non-invertible matrices(singular matrices), some combinations of their 
 
 ### Back to the matrix has a inverse
 
-![](./imgs/lec3/3-7.svg)
+![](./imgs/lec3/3-8.svg)
 
