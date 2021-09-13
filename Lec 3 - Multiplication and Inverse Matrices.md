@@ -77,9 +77,9 @@ Ther regular way was row x columns and it gaves a number.
 
 ![](./imgs/lec3/3-5.svg)
 
-- The row space, which is like all the combinations of the rows is just a line for this matrix. The row space is the line through the vector ![](./img/lec3/16.svg). All the rows lie on that line.
+- The row space, which is like all the combinations of the rows is just a line for this matrix. The row space is the line through the vector ![](./imgs/lec3/16.svg). All the rows lie on that line.
 
-- The column space is also a line. All the columns space is also a line. All the columns lie on the line through the ![](./img/lec3/234.svg)
+- The column space is also a line. All the columns space is also a line. All the columns lie on the line through the ![](./imgs/lec3/234.svg)
 
 ---
 
@@ -95,4 +95,82 @@ Ther regular way was row x columns and it gaves a number.
 ## Second Topic: Inverse
 
 ### Inverses (Square matrix)
+
+![](./imgs/lec3/3-6.svg)
+
+If A inverse exists (***Invertible, non-singular),
+
+- rectangular matrices
+
+> a left inverse will not be a right inverse since the shapes would not allow it.
+
+- Square matrices
+
+> a square matrices the shape allow it and a left inverse and right inverse would be same.
+
+### Singular Case (= No Inverse)
+
+![](./imgs/lec3/3-7.svg)
+
+Why above matrix isn't invertible?
+
+There are various reasons that above matrix isn't invertible.
+
+1. Determinant
+
+If someone who knows determinants, would find the matrix's determinant is 0.
+
+2. ***Looking as column picture***
+
+If I multiply this matrix A by some other matrix, then the the result -- what can you tell me about the columns?
+
+They're all multiples of those columns, right?
+
+If I multiply A by another matrix that the product has columns that come from those columns.
+
+So can I get the identity matrix?
+
+No way.
+
+The columns of the identity matrix, like one zero -- it's not a combination of those columns, because those two columns lie on the -- both lie on the same line.
+
+Every combination is just going to be on that line and I can't get one zero.
+
+So, you can see that sort of column picture of the matrix not being invertible.
+
+---
+
+#### Another important reason
+
+In fact there is another important reason.
+
+A sqaure matrix won't have inverse, **if you can find a vector X satisfying AX = 0**.
+
+![](./imgs/lec3/3-8.svg)
+
+> Here, it is important that the vector X is non-zero vector.
+
+So why this isn't invertible?
+
+The matrix can't have an inverse if some combination of the columns gives 0. - It gives nothing.
+
+if A inverse exists,
+
+![](./imgs/lec3/3-9.svg)
+
+I would discover X = 0.
+
+**But X wasn't 0.**
+
+---
+
+### Conclusion
+
+With the Non-invertible matrices(singular matrices), some combinations of their columns gives the zero column. They take some vector X into 0. And there's no way A inverse can recover.
+
+---
+
+### Back to the matrix has a inverse
+
+![](./imgs/lec3/3-7.svg)
 
