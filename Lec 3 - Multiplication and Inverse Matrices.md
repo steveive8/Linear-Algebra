@@ -148,7 +148,7 @@ A sqaure matrix won't have inverse, **if you can find a vector X satisfying AX =
 
 ![](./imgs/lec3/3-10.svg)
 
-> Here, it is important that the vector X is non-zero vector.
+(It is important that the vector X is non-zero vector.)
 
 So why this isn't invertible?
 
@@ -196,7 +196,7 @@ So, we can say that as below.
 
 #### A x Column j of A inverse = Column j of I
 
-It is looking at that equatiion by columns. This is like Gauss. We're back to solving systems of equations, but we're solving two right-hand sides instead of one.
+It is looking at that equation by columns. This is like Gauss. We're back to solving systems of equations, but we're solving two right-hand sides instead of one.
 
 > That's where Jordan comes in.
 
