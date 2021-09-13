@@ -218,10 +218,14 @@ And Jordan sort of said to Gauss, solve them together.
 
 ![](./imgs/lec3/3-20.svg)
 
+Therefore,
+
 ![](./imgs/lec3/3-21.svg)
 
 - EA = I tells us E = A inverse
 - When E multiplies I, it is E.
+
+In conclusion,
 
 ![](./imgs/lec3/3-22.svg)
 
