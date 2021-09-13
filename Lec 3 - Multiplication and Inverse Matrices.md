@@ -98,7 +98,7 @@ Ther regular way was row x columns and it gaves a number.
 
 ![](./imgs/lec3/3-7.svg)
 
-If A inverse exists (***Invertible, non-singular),
+If A inverse exists (***Invertible, non-singular***),
 
 - rectangular matrices
 
@@ -116,11 +116,11 @@ Why above matrix isn't invertible?
 
 There are various reasons that above matrix isn't invertible.
 
-1. Determinant
+#### Determinant
 
 If someone who knows determinants, would find the matrix's determinant is 0.
 
-2. ***Looking as column picture***
+#### ***Looking as column picture***
 
 If I multiply this matrix A by some other matrix, then the the result -- what can you tell me about the columns?
 
