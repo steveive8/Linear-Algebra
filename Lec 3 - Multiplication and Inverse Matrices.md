@@ -116,11 +116,11 @@ Why above matrix isn't invertible?
 
 There are various reasons that above matrix isn't invertible.
 
-#### Determinant
+#### 1. Determinant
 
 If someone who knows determinants, would find the matrix's determinant is 0.
 
-#### ***Looking as column picture***
+#### 2. ***Looking as column picture***
 
 If I multiply this matrix A by some other matrix, then the the result -- what can you tell me about the columns?
 
@@ -140,7 +140,7 @@ So, you can see that sort of column picture of the matrix not being invertible.
 
 ---
 
-#### Another important reason
+#### 3. Another important reason
 
 In fact there is another important reason.
 
