@@ -229,7 +229,7 @@ In conclusion,
 
 ![](./imgs/lec3/3-22.svg)
 
-#### There is the statement of Gauss-Jordan elimination.
+#### This is the statement of Gauss-Jordan elimination.
 
 ---
 
