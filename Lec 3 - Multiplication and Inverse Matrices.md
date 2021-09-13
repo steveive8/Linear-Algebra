@@ -184,13 +184,13 @@ So, how can we say this matrix has an inverse?
 
 ### How can I going to compute A inverse?
 
-![](./imgs/lec3/3-9.svg)
+![](./imgs/lec3/3-12.svg)
 
 When you see above, you can see that finding the inverse is like solving two systems.
 
-![](./imgs/lec3/3-10.svg)
+![](./imgs/lec3/3-13.svg)
 
-![](./imgs/lec3/3-11.svg)
+![](./imgs/lec3/3-14.svg)
 
 So, we can say that as below.
 
@@ -202,30 +202,30 @@ It is looking at that equatiion by columns. This is like Gauss. We're back to so
 
 #### Gauss Jordan (solve two equations at once)
 
-![](./imgs/lec3/3-12.svg)
+![](./imgs/lec3/3-15.svg)
 
-![](./imgs/lec3/3-13.svg)
+![](./imgs/lec3/3-16.svg)
 
 If I can solve with this matrix A with those two right-hand side, I'm invertible.
 
 And Jordan sort of said to Gauss, solve them together.
 
-![](./imgs/lec3/3-14.svg)
-
-![](./imgs/lec3/3-15.svg)
-
-#### So, how see this? => Here's Gilbert Strang's Gauss Jordan thing.
-
-![](./imgs/lec3/3-16.svg)
-
 ![](./imgs/lec3/3-17.svg)
 
 ![](./imgs/lec3/3-18.svg)
 
+#### So, how see this? => Here's Gilbert Strang's Gauss Jordan thing.
+
+![](./imgs/lec3/3-19.svg)
+
+![](./imgs/lec3/3-20.svg)
+
+![](./imgs/lec3/3-21.svg)
+
 - EA = I tells us E = A inverse
 - When E multiplies I, it is E.
 
-![](./imgs/lec3/3-19.svg)
+![](./imgs/lec3/3-22.svg)
 
 #### There is the statement of Gauss-Jordan elimination.
 
