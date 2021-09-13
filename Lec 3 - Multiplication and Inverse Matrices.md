@@ -12,40 +12,77 @@ I've been multilplying matrices already, but certainly time for me to discuss th
 
 ---
 
+### The Things we are going to cover this lecture
 
-## Matrix Multiplication
+#### Matrix Multiplication
 
-I'll begin with how to multiply two matrices. 
- 
-First way, okay, so suppose that I have a matrix A, multiplying a matrix B and giving me a result a matrix C.
+#### Inverse
 
+---
 
+## How to multiply two matrices
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\fn_phv&space;{\color{Cyan}&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\end{bmatrix}\cdot&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\end{bmatrix}=&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\end{bmatrix}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?\fn_phv&space;{\color{Cyan}&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\end{bmatrix}\cdot&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\end{bmatrix}=&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\end{bmatrix}}" title="{\color{Cyan} \begin{bmatrix} & & & \\ & & & \\ & & & \\ & & & \end{bmatrix}\cdot \begin{bmatrix} & & & \\ & & & \\ & & & \\ & & & \end{bmatrix}= \begin{bmatrix} & & & \\ & & & \\ & & & \\ & & & \end{bmatrix}}" /></a>
+### First way
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  B &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  C = AB
+The first way is a standard rule that people think of multiplying matrices.
 
+![](./imgs/lec3/3-1.svg)
 
-So, let me just review the rule for this entry.
+---
 
-<a href="https://www.codecogs.com/eqnedit.php?latex={\color{Cyan}&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\end{bmatrix}\cdot&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&C_i_j&space;\\&space;&&space;&&space;&&space;\end{bmatrix}=&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\end{bmatrix}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?{\color{Cyan}&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\end{bmatrix}\cdot&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&C_i_j&space;\\&space;&&space;&&space;&&space;\end{bmatrix}=&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\end{bmatrix}}" title="{\color{Cyan} \begin{bmatrix} & & & \\ & & & \\ & & & \\ & & & \end{bmatrix}\cdot \begin{bmatrix} & & & \\ & & & \\ & & &C_i_j \\ & & & \end{bmatrix}= \begin{bmatrix} & & & \\ & & & \\ & & & \\ & & & \end{bmatrix}}" /></a>
+### Second Way
 
-That's the entry in row i and column j. So, that's the i j entry. The <a href="https://www.codecogs.com/eqnedit.php?latex={\color{Cyan}&space;C_i_j}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?{\color{Cyan}&space;C_i_j}" title="{\color{Cyan} C_i_j}" /></a>.
+The other way of looking at whole columns and whole rows.
 
-We always write the row number and then column number. 
+![](./imgs/lec3/3-2.svg)
 
-So maybe I take it <a href="https://www.codecogs.com/eqnedit.php?latex={\color{Cyan}&space;C_3_4}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?{\color{Cyan}&space;C_3_4}" title="{\color{Cyan} C_3_4}" /></a>, just to make it specific.
+- matrix times first column produces first column of C.
+- matrix times second column produces second column of C.
 
-<a href="https://www.codecogs.com/eqnedit.php?latex={\color{Cyan}&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\end{bmatrix}\cdot&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&C_3_4&space;\\&space;&&space;&&space;&&space;\end{bmatrix}=&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\end{bmatrix}}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?{\color{Cyan}&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\end{bmatrix}\cdot&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&C_3_4&space;\\&space;&&space;&&space;&&space;\end{bmatrix}=&space;\begin{bmatrix}&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\\&space;&&space;&&space;&&space;\end{bmatrix}}" title="{\color{Cyan} \begin{bmatrix} & & & \\ & & & \\ & & & \\ & & & \end{bmatrix}\cdot \begin{bmatrix} & & & \\ & & & \\ & & &C_3_4 \\ & & & \end{bmatrix}= \begin{bmatrix} & & & \\ & & & \\ & & & \\ & & & \end{bmatrix}}" /></a>
+#### Columns of C are combinations of columns of A
 
-So where does this come from, The <a href="https://www.codecogs.com/eqnedit.php?latex={\color{Cyan}&space;C_3_4}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?{\color{Cyan}&space;C_3_4}" title="{\color{Cyan} C_3_4}" /></a> entry?
+You can just think of having several columns multiplying by A and getting the columns of the answer.
 
-It comes from row 3, and column 4 as you know. Let just write down the formula for it.
+---
 
-<a href="https://www.codecogs.com/eqnedit.php?latex={\color{Cyan}&space;C_3_4}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?{\color{Cyan}&space;C_3_4}" title="{\color{Cyan} C_3_4}" /></a> = (row 3 of A) <a href="https://www.codecogs.com/eqnedit.php?latex={\color{Cyan}&space;\cdot&space;}" target="_blank"><img src="https://latex.codecogs.com/svg.latex?{\color{Cyan}&space;\cdot&space;}" title="{\color{Cyan} \cdot }" /></a> (Column 4 of B)
+### Third way
 
-If we look at the whole row and the whole column, the quick way for us to say it is row 3 of A, I can use dot product (I won't often use that, actually) Dot column 4 of B.
+The third way is looking at it by rows.
 
-But this gives us a chance to just like, use a little matrix notation.
+![](./imgs/lec3/3-3.svg)
 
-What are the entries? What's the first entry in row three?
+#### Rows of C are combinations of rows of B.
+
+---
+
+### 4th Way (***Important***)
+
+#### Columns x rows
+
+Ther regular way was row x columns and it gaves a number.
+
+> now I want to ask column x rows.
+
+#### Column of A (m x 1) x Row of B (1 x p) = m x p
+
+![](./imgs/lec3/3-4.svg)
+
+- columns of matrix is multiplying of ![](./imgs/lec3/234.svg)
+
+- rows of matrix is multiples of ![](./imgs/lec3/16.svg)
+
+#### AB = sum of (cols of A) x (rows of B)
+
+![](./imgs/lec3/3-5.svg)
+
+> The row space, which is like all the combinations of the rows is just a line for this matrix. The row space is the line through the vector ![](./img/lec3/16.svg). All the rows lie on that line.
+
+> The column space is also a line. All the columns space is also a line. All the columns lie on the line through the ![](./img/lec3/234.svg)
+
+---
+
+### Block Multiplication
+
+![](./imgs/lec3/3-6.svg)
+
+#### All 5 ways we're doing the same multiplication
