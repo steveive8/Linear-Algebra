@@ -22,7 +22,7 @@ I've been multilplying matrices already, but certainly time for me to discuss th
 
 ## How to multiply two matrices
 
-### First way
+### First way: Standard Rule
 
 The first way is a standard rule that people think of multiplying matrices.
 
@@ -30,7 +30,7 @@ The first way is a standard rule that people think of multiplying matrices.
 
 ---
 
-### Second Way
+### Second Way: Combinations of Columns
 
 The other way of looking at whole columns and whole rows.
 
@@ -45,7 +45,7 @@ You can just think of having several columns multiplying by A and getting the co
 
 ---
 
-### Third way
+### Third way: Combinations of Rows
 
 The third way is looking at it by rows.
 
@@ -55,9 +55,7 @@ The third way is looking at it by rows.
 
 ---
 
-### 4th Way (***Important***)
-
-#### Columns x rows
+### 4th Way:  Columns x rows(***Important***)
 
 Ther regular way was row x columns and it gaves a number.
 
