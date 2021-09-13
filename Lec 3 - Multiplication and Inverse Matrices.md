@@ -61,13 +61,15 @@ The third way is looking at it by rows.
 
 Ther regular way was row x columns and it gaves a number.
 
-> now I want to ask column x rows.
+**Now I want to ask column x rows.**
 
-#### Column of A (m x 1) x Row of B (1 x p) = m x p
+#### Column of A  x Row of B
+
+(m x 1) x (1 x p) = m x p
 
 ![](./imgs/lec3/3-4.svg)
 
-- columns of matrix is multiplying of ![](./imgs/lec3/234.svg)
+- columns of matrix is multiples of ![](./imgs/lec3/234.svg)
 
 - rows of matrix is multiples of ![](./imgs/lec3/16.svg)
 
@@ -75,9 +77,9 @@ Ther regular way was row x columns and it gaves a number.
 
 ![](./imgs/lec3/3-5.svg)
 
-> The row space, which is like all the combinations of the rows is just a line for this matrix. The row space is the line through the vector ![](./img/lec3/16.svg). All the rows lie on that line.
+- The row space, which is like all the combinations of the rows is just a line for this matrix. The row space is the line through the vector ![](./img/lec3/16.svg). All the rows lie on that line.
 
-> The column space is also a line. All the columns space is also a line. All the columns lie on the line through the ![](./img/lec3/234.svg)
+- The column space is also a line. All the columns space is also a line. All the columns lie on the line through the ![](./img/lec3/234.svg)
 
 ---
 
@@ -86,3 +88,11 @@ Ther regular way was row x columns and it gaves a number.
 ![](./imgs/lec3/3-6.svg)
 
 #### All 5 ways we're doing the same multiplication
+
+
+---
+
+## Second Topic: Inverse
+
+### Inverses (Square matrix)
+
