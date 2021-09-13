@@ -1,4 +1,4 @@
- # Lec 1. Multiplication and Inverse Matrices
+# Lec 1. Multiplication and Inverse Matrices
 
 ## Linear Algebra, Gilbert Strang. MIT Lecture 2005 Spring
 
@@ -74,6 +74,8 @@ Ther regular way was row x columns and it gaves a number.
 #### AB = sum of (cols of A) x (rows of B)
 
 ![](./imgs/lec3/3-5.svg)
+
+Above multiplication bring back to us the same result of multiplying just first column and the first row of A, B, and result, this will gives us a special matrix that all the rows and columns are lie on the same directions respectively.
 
 - The row space, which is like all the combinations of the rows is just a line for this matrix. The row space is the line through the vector ![](./imgs/lec3/16.svg). All the rows lie on that line.
 
