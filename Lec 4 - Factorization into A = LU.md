@@ -215,7 +215,7 @@ That's the point -- that if I want to know L, I have no work to do. I just keep 
 
 So, let me say it clear.
 
-#### A = LU
+### A = LU
 
 ***If now row exchanges, multipliers go directly into L.***
 
@@ -231,10 +231,10 @@ So because it's all there in **L and U**.
 
 This moment is maybe the new insight in elimination that comes from matrix doing it matrix form.
 
-**In conclusion, we can't see what that product of Es is.
+**In conclusion, we can't see what that product of Es is.**
 
-The matrix E is not a particularay attractive one.
+**The matrix E is not a particularay attractive one.**
 
-What's great is when we put them on the other side, their inverses in the opposite order, there the L comes out just right.**
+**What's great is when we put them on the other side, their inverses in the opposite order, there the L comes out just right.**
 
 3장 확인하기
