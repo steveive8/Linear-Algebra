@@ -23,11 +23,11 @@ So that's the high point for today.
 
 ## Inverse of a Product
 
-![](../imgs/4-1.svg)
+![](../imgs/lec4/4-1.svg)
 
 Suppose A and B are invertible, then what matrix gives me the inverse of A and B?
 
-![](../imgs/4-2.svg)
+![](../imgs/lec4/4-2.svg)
 
 What's the inverse of AB ? Do I multiply those seprate inverses?
 
@@ -37,7 +37,7 @@ I multiply the two matrices, A inverse and B inverse, but what order do I multip
 
 #### In reverse order
 
-![](../imgs/4-3.svg)
+![](../imgs/lec4/4-3.svg)
 
 So the right thing to put here is B inverse and A inverse. 
 
@@ -45,15 +45,15 @@ Why? once again it's this fact that I can move paranthesis around, so what's the
 
 #### B times B inverse
 
-![](../imgs/4-4.svg)
+![](../imgs/lec4/4-4.svg)
 
 And of course, on the other side, below also makes Identity.
 
-![](../imgs/4-5.svg) 
+![](../imgs/lec4/4-5.svg) 
 
 So, here's inverse.
 
-![](../imgs/4-6.svg)
+![](../imgs/lec4/4-6.svg)
 
 While we're at it, let me do a transpose. Because the next lecture has got a lot to involves transposes.
 
@@ -63,7 +63,7 @@ If I transpose invertible square matrices, what's its inverse?
 
 Let me start from A, A inverse equal the Identity. And let me transpose both sides.
 
-![](../imgs/4-7.svg)
+![](../imgs/lec4/4-7.svg)
 
 If I transpose Identity, Identity again.
 
@@ -71,7 +71,7 @@ If I transpose A x A inverse, they come in opposite order.
 
 Therefore,
 
-![](../imgs/4-8.svg)
+![](../imgs/lec4/4-8.svg)
 
 But this equation tells me what I wanted to know, namely what is the inverse of the A transpose? This equation tells me that here it is. 
 
@@ -98,13 +98,13 @@ And this is going to tell me that there's a matrix L that connect them.
 
 Below I created the two by two matrix A, that is not singular. And the elementary matrix on the left side named as E_21, since it is going to produce a zero in that position of A. And since it is just two by two matrix, it's going to produce U in one shot.
 
-![](../imgs/4-9.svg)
+![](../imgs/lec4/4-9.svg)
 
 You might see the difference between A = LU and above. At the A = LU, I'm shooting for A on one side and the other matrices on the other side of the equations.
 
 Now here, going to be my A equals L U.
 
-![](../imgs/4-10.svg)1
+![](../imgs/lec4/4-10.svg)1
 
 What's the L? Well, you might see the L is the inverse of the E_21.
 
@@ -114,7 +114,7 @@ Remeber those elimination matrices are easy to invert.
 
 The inverse matrix for E_21 is below.
 
-![](../imgs/4-11.svg)
+![](../imgs/lec4/4-11.svg)
 
 It is just has the plus sign because it adds back what this removes.
 
@@ -128,7 +128,7 @@ And actually, L has ones on the diagonal, whereas the U has the pivots on the di
 
 Oh, sometimes we may want to seperate out the pivots, so can I just mention that sometiomes we could also write this as below.
 
-![](../imgs/4-12.svg)
+![](../imgs/lec4/4-12.svg)
 
 It's just showing you how I would divide out this matrix of pivots to D, the diagonal matrix, and the divide the marix D's first row by two pull out the two, and second row by three to pull the three. And it's a little more balanced, because we have ones on the diagonal at U, and the diagonal matrix in the middle.
 
@@ -154,13 +154,13 @@ That's what elimination is, and it produced U.
 
 And let's assume that there are no row exchanges, since when I don't have to row exchange, all I do is these elimination steps. 
 
-![](../imgs/4-13.svg)
+![](../imgs/lec4/4-13.svg)
 
 Now, suppose I want above stuff over on the right hand side, that's like my point here. I can multiply these together as E, but I want it over on the right. I want its inverse over there.
 
 We know how to invert, we should take the seperate inverses, but they go in the opposite order. So it become like below.
 
-![](../imgs/4-14.svg)
+![](../imgs/lec4/4-14.svg)
 
 L is product of inverses. Now you still can ask why is this guy preferring inverses?
 And let me explain why. Let me explain why is A = LU nicer than EA = U?
@@ -169,13 +169,13 @@ Let me take a typical case here. I have to do three by three for you to see the 
 
 But let me go up this case.
 
-![](../imgs/4-15.svg)
+![](../imgs/lec4/4-15.svg)
 
 Let's assume that the E_31 is Identity. That's a typical case in which we didn't need an E31. Maybe we already had a zero in that three one position.
 
 Let me just do the mulitplication. On the above the diagonal, there are all zeros. And I'm going to get ones on the diagonal. Because what it is saying that I'm subtracting rows from lower rows. So nothing is moving upwards as it did last time in Gauss Jordan.
 
-![](../imgs/4-16.svg)
+![](../imgs/lec4/4-16.svg)
 
 As above, how that ten is get in there? The ten got in there because I subtracted two of row one from row two, and then I subtracted five of that new row two from row three. So doing it in that order, how did row one effect row three?
 
@@ -185,7 +185,7 @@ Well, it did, because two of it got removed from row two and then five of those 
 
 So now this is going to E that goes on the left of A.
 
-![](../imgs/4-17.svg)
+![](../imgs/lec4/4-17.svg)
 
 Now I'm going to do the inverses in the opposite order, so the opposite order means I put E_21 inverse first.
 
@@ -195,11 +195,11 @@ Same thing with a plus sign, right?
 
 For the individual matrices, instead of taking away two, I add back two of row one to row two, so no problem.
 
-![](../imgs/4-18.svg)
+![](../imgs/lec4/4-18.svg)
 
 And in reverse order, I want to inverse E_32, so now the inverse is again the same thing, but add in the five.
 
-![](../imgs/4-19.svg)
+![](../imgs/lec4/4-19.svg)
 
 And now I'll do that multiplication and I'll get a happy result.
 
@@ -207,7 +207,7 @@ Let me do the multiplication. So row one of the answer is one zero zero.
 Then I have two one zero on the second row.
 And what's the third row? 0 5 1 Because one way to say is this is saying take one of the last row and there it is. And it is the one that goes on the left of U. 
 
-![](../imgs/4-20.svg)
+![](../imgs/lec4/4-20.svg)
 
 Let me make the point now in words. The order that the matrices come for L is the right order. The two and the five don't sort of interfere to produce this ten. In the right order, the multipliers just sit in the matrix L.
 
