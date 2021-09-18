@@ -221,4 +221,20 @@ So, let me say it clear.
 
 So if no row exchanges, the multipliers that those numbers that we multiplied rows by and subtracted, when we did an elimination step -- the multipliers go directly into L.
 
-So L is -- this is the way, to look at elimination. You go through the elimination steps, and actually if you do it right, you can throw away A
+So L is -- this is the way, to look at elimination. You go through the elimination steps, and actually if you do it right, you can throw away A as you create L U.
+
+If you think about it, those steps of eliminations as when you've finished with row two of A, you've created a new row two of U, which you have to save,
+
+and you've created the multipliers that you used which you have to svae, and then you can forget A.
+
+So because it's all there in **L and U**.
+
+This moment is maybe the new insight in elimination that comes from matrix doing it matrix form.
+
+**In conclusion, we can't see what that product of Es is.
+
+The matrix E is not a particularay attractive one.
+
+What's great is when we put them on the other side, their inverses in the opposite order, there the L comes out just right.**
+
+3장 확인하기
