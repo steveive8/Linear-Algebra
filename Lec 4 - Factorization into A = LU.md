@@ -9,11 +9,11 @@ This article is based on Gilbert Strang's lecture script. The article will be de
 
 ### The Things we are going to cover this lecture
 
-#### What's the inverse of a product?
+**What's the inverse of a product?
 
 If I multiply two matrices A,B, what matrix will be Inverse of AB?
 
-#### Big formula for elimination: A = LU
+**Big formula for elimination: A = LU
 
 The net result of today's lectures is the big formula for elimination, and it is great way to look at Gaussian elimination. We know that we get from A to U by elimination. We know that we get from A to U by elimination.
 We know the steps but now we get the right way to look at it, A equals L U.
@@ -21,7 +21,7 @@ So that's the high point for today.
 
 ---
 
-## Inverse of a Product
+## What's the Inverse of a Product
 
 ![](./imgs/lec4/4-1.svg)
 
@@ -31,11 +31,11 @@ Suppose A and B are invertible, then what matrix gives me the inverse of A and B
 
 What's the inverse of AB ? Do I multiply those seprate inverses?
 
-#### Yes
+**Yes**
 
 I multiply the two matrices, A inverse and B inverse, but what order do I multiply?
 
-#### In reverse order
+**In reverse order**
 
 ![](./imgs/lec4/4-3.svg)
 
@@ -43,7 +43,7 @@ So the right thing to put here is B inverse and A inverse.
 
 Why? once again it's this fact that I can move paranthesis around, so what's the right multiplication to do first?
 
-#### B times B inverse
+**B times B inverse**
 
 ![](./imgs/lec4/4-4.svg)
 
@@ -57,7 +57,7 @@ So, here's inverse.
 
 While we're at it, let me do a transpose. Because the next lecture has got a lot to involves transposes.
 
-### Transpose
+## Inverse of a Transposed Matrix
 
 If I transpose invertible square matrices, what's its inverse?
 
@@ -77,9 +77,9 @@ But this equation tells me what I wanted to know, namely what is the inverse of 
 
 ![](./imgs/lec4/4-9.svg)
 
-#### At the result, if you want to know the inverse of A transpose, and you know the inverse of A, then you just transpose that.
+**At the result, if you want to know the inverse of A transpose, and you know the inverse of A, then you just transpose that.
 
-#### And to put it another way, transposing and inversing, you can do in either order for a single matrix. (Reverse order)
+**And to put it another way, transposing and inversing, you can do in either order for a single matrix. (Reverse order)
 
 So these are like basic facts that we can now use. So now, I put it to use.
 
@@ -96,7 +96,9 @@ How is A related to U?
 
 And this is going to tell me that there's a matrix L that connect them.
 
-## Two by Two matrix
+## How's A related to U
+
+### Two by Two matrix
 
 Below I created the two by two matrix A, that is not singular. And the elementary matrix on the left side named as E_21, since it is going to produce a zero in that position of A. And since it is just two by two matrix, it's going to produce U in one shot.
 
@@ -124,7 +126,7 @@ So what's the L stand for? Why the letter L?
 
 If U stood for upper triangular, then of course L stands for
 
-#### Lower Triangular
+**Lower Triangular**
 
 And actually, L has ones on the diagonal, whereas the U has the pivots on the diagonal.
 
@@ -142,7 +144,7 @@ But, with three by three, there's a more significant difference.
 
 Let me move up to three by three.
 
-## Three by Three
+### 3x3 LU Decomposition (without Row Exchange)
 
 Before we think about the three by three matrix A, what's the first elimination step?
 
@@ -183,7 +185,7 @@ As above, how that ten is get in there? The ten got in there because I subtracte
 
 Well, it did, because two of it got removed from row two and then five of those got removed from row three. So altogether ten, of row one got thrown into row three. Now my point is in the reverse direction, so let me write down the inverses.
 
-### Inverses(reverse order)
+## L is product of inverses
 
 So now this is going to E that goes on the left of A.
 
@@ -217,7 +219,7 @@ That's the point -- that if I want to know L, I have no work to do. I just keep 
 
 So, let me say it clear.
 
-### A = LU
+**A = LU**
 
 ***If now row exchanges, multipliers go directly into L.***
 
@@ -243,10 +245,17 @@ This moment is maybe the new insight in elimination that comes from matrix doing
 
 ---
 
+## How expensive is Elimination?
+
 Can we think together how expensive is elimination?
 
 How many operations do we do? So this is now a kind of new topic which I didn't list as on the program, but here it comes.
-## How many operations on an n by n matrix A
+
+How many operations on an n by n matrix A?
 
 I mean, it's a very practical quesition. Can we solve systems of order a thousand, in a second or a minute or a week?
+
+## LU Decomposition (with Row Exchange)
+
+## Permutations for Row Exchanges
 
