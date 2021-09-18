@@ -98,7 +98,7 @@ And this is going to tell me that there's a matrix L that connect them.
 
 ## How's A related to U
 
-### Two by Two matrix
+### 2x2 LU Decomposition
 
 Below I created the two by two matrix A, that is not singular. And the elementary matrix on the left side named as E_21, since it is going to produce a zero in that position of A. And since it is just two by two matrix, it's going to produce U in one shot.
 
